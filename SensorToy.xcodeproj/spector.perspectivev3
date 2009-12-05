@@ -326,7 +326,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>8B88F9B710CAB85700957EF7</string>
+										<string>8B88F9C310CAC1B200957EF7</string>
 										<key>history</key>
 										<array>
 											<string>8BFF715D10C8BE3000CE2B37</string>
@@ -337,7 +337,7 @@
 											<string>8BC2896210CA2B860081FC87</string>
 											<string>8B9BA55A10CA40A900C9B05F</string>
 											<string>8B88F9B110CAB78C00957EF7</string>
-											<string>8B88F9AF10CAB77500957EF7</string>
+											<string>8B88F9BD10CAC14800957EF7</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -658,7 +658,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>8B88F9B810CAB85700957EF7</string>
+		<string>8B88F9C410CAC1B200957EF7</string>
 		<string>8B88F98E10CAB61200957EF7</string>
 		<string>8B88F98F10CAB61200957EF7</string>
 		<string>/Users/spector/Desktop/SensorToy/SensorToy.xcodeproj</string>
