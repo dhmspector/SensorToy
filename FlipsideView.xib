@@ -142,10 +142,13 @@
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
+						<object class="IBUIAccessibilityConfiguration" key="IBUIAccessibilityConfiguration">
+							<integer value="66" key="IBUIAccessibilityTraits"/>
+						</object>
 						<string type="base64-UTF8" key="IBUIText">aHR0cDovL2dpdGh1Yi5jb20vZGhtc3BlY3Rvci9TZW5zb3JUb3kKA</string>
 						<object class="NSFont" key="IBUIFont">
 							<string key="NSName">Helvetica-Oblique</string>
-							<double key="NSSize">12</double>
+							<double key="NSSize">14</double>
 							<int key="NSfFlags">16</int>
 						</object>
 						<object class="NSColor" key="IBUITextColor">
