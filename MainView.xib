@@ -616,12 +616,13 @@
 					<int key="connectionID">96</int>
 				</object>
 				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
+					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">showInfo</string>
-						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="558454645"/>
+						<reference key="source" ref="558454645"/>
+						<reference key="destination" ref="372490531"/>
+						<int key="IBEventType">7</int>
 					</object>
-					<int key="connectionID">101</int>
+					<int key="connectionID">103</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -860,7 +861,7 @@
 					<string>MainViewController</string>
 					<string>UIResponder</string>
 					<string>MainView</string>
-					<string>{{1405, 389}, {320, 480}}</string>
+					<string>{{1120, 376}, {320, 480}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -906,7 +907,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">101</int>
+			<int key="maxID">103</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -926,12 +927,14 @@
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>showInfo</string>
 							<string>showUserLocation</string>
 							<string>toggleCoreLocation</string>
 							<string>toggleMapType</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>id</string>
 							<string>id</string>
 							<string>id</string>
 							<string>id</string>

@@ -65,6 +65,6 @@
 - (IBAction)toggleCoreLocation;
 - (IBAction) showUserLocation;
 - (IBAction) toggleMapType;
-
+- (IBAction)showInfo;
 
 @end
