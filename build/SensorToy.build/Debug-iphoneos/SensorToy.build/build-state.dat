@@ -1,0 +1,1105 @@
+TSensorToy
+v7
+r0
+t281716379.748380
+cCheck dependencies
+cCpResource build/Debug-iphoneos/SensorToy.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/Info.plist SensorToy-Info.plist
+cCompileXIB /Users/spector/Desktop/SensorToy/FlipsideView.xib
+cCompileXIB /Users/spector/Desktop/SensorToy/MainView.xib
+cCompileXIB /Users/spector/Desktop/SensorToy/MainWindow.xib
+cCopyPNGFile /Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/71-compass.png Graphics/71-compass.png
+cCopyPNGFile /Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/74-location.png Graphics/74-location.png
+cCopyPNGFile /Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/map-marker.png Graphics/map-marker.png
+cCopyPNGFile /Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/tack.png Graphics/tack.png
+cCopyPNGFile /Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/tack_small.png Graphics/tack_small.png
+cCopyPNGFile /Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/target.png Graphics/target.png
+cCopyPNGFile /Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/target_small.png Graphics/target_small.png
+cCopyPNGFile /Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/01-refresh.png Graphics/01-refresh.png
+cCopyPNGFile /Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/103-map.png Graphics/103-map.png
+cCopyPNGFile /Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/SensorToy.png SensorToy.png
+cProcessPCH /var/folders/ko/ko7HD0qPFWGFCjTB1d7Pxk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SensorToy_Prefix-djoyqcuntwzmwkdllhfnsbvzqthr/SensorToy_Prefix.pch.gch SensorToy_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SensorToy.build/Debug-iphoneos/SensorToy.build/Objects-normal/armv6/main.o /Users/spector/Desktop/SensorToy/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SensorToy.build/Debug-iphoneos/SensorToy.build/Objects-normal/armv6/CoreLocationTestAppDelegate.o /Users/spector/Desktop/SensorToy/Classes/CoreLocationTestAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SensorToy.build/Debug-iphoneos/SensorToy.build/Objects-normal/armv6/FlipsideView.o /Users/spector/Desktop/SensorToy/Classes/FlipsideView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SensorToy.build/Debug-iphoneos/SensorToy.build/Objects-normal/armv6/MainView.o /Users/spector/Desktop/SensorToy/Classes/MainView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SensorToy.build/Debug-iphoneos/SensorToy.build/Objects-normal/armv6/MainViewController.o /Users/spector/Desktop/SensorToy/Classes/MainViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SensorToy.build/Debug-iphoneos/SensorToy.build/Objects-normal/armv6/FlipsideViewController.o /Users/spector/Desktop/SensorToy/Classes/FlipsideViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SensorToy.build/Debug-iphoneos/SensorToy.build/Objects-normal/armv6/Reachability.o /Users/spector/Desktop/SensorToy/Classes/Reachability/Reachability.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/SensorToy normal armv6
+cProcessProductPackaging "/Users/spector/Library/MobileDevice/Provisioning Profiles/B47C3F3E-36BC-4960-B162-16E6D4D5E2D1.mobileprovision" /Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/embedded.mobileprovision
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist /Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy.xcent
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk
+c000000004ABFDAFE0000000000000110
+t1254087422
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist
+c000000004ABDB88400000000000000DD
+t1253947524
+s221
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
+c000000004ABDB88400000000000001E5
+t1253947524
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004ABDBA1300000000005F4900
+t1253947923
+s6244608
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004ABDD17F0000000000085550
+t1253953919
+s546128
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004ABDD17900000000000001AF
+t1253953913
+s431
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004ABDBDCF0000000000501370
+t1253948879
+s5247856
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004ABDBDA40000000000001355
+t1253948836
+s4949
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MKAnnotation.h
+c000000004ABDD36400000000000001D5
+t1253954404
+s469
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MKReverseGeocoder.h
+c000000004ABDD3650000000000000623
+t1253954405
+s1571
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
+c000000004ABDD364000000000000017D
+t1253954404
+s381
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c000000004ABDD38100000000001CD6E0
+t1253954433
+s1890016
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetworkReachability.h
+c000000004ABDBB6A00000000000035EC
+t1253948266
+s13804
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+c000000004ABDBB690000000000001A78
+t1253948265
+s6776
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004ABDBB7700000000000D7460
+t1253948279
+s881760
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004ABDD0D10000000000000788
+t1253953745
+s1928
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004ABDD2250000000001B3F450
+t1253954085
+s28570704
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/Availability.h
+c000000004ABDC79900000000000019F9
+t1253951385
+s6649
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/arpa/inet.h
+c000000004ABDAF5B0000000000001533
+t1253945179
+s5427
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/ifaddrs.h
+c000000004ABDAF660000000000000782
+t1253945190
+s1922
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/netdb.h
+c000000004ABDAF8C0000000000003057
+t1253945228
+s12375
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/netinet/in.h
+c000000004ABDB473000000000000535B
+t1253946483
+s21339
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/netinet6/in6.h
+c000000004ABDB4740000000000004F5B
+t1253946484
+s20315
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/sys/socket.h
+c000000004ABDB4790000000000005660
+t1253946489
+s22112
+
+N/Users/spector/Desktop/CoreLocationTest/../../Work/ZeitgeistInfoSysLLC/MacintoshSoftwareDevelopment/iPhoneDevelopment/iPhoneSpecifcLibraries/libisimulate-3.x-noOpenGL/libisimulate.a
+c000000004AC1FECE000000000001A758
+t1254227662
+s108376
+
+N/Users/spector/Desktop/CoreLocationTest/Classes/CoreLocationTestAppDelegate.h
+c000000004B187DF300000000000001E7
+t1259896307
+s487
+
+N/Users/spector/Desktop/CoreLocationTest/Classes/CoreLocationTestAppDelegate.m
+c000000004B187DF3000000000000035B
+t1259896307
+s859
+i"CoreLocationTestAppDelegate.h"
+i"MainViewController.h"
+
+N/Users/spector/Desktop/CoreLocationTest/Classes/FlipsideView.h
+c000000004B187DF300000000000000D2
+t1259896307
+s210
+
+N/Users/spector/Desktop/CoreLocationTest/Classes/FlipsideView.m
+c000000004B187DF300000000000001D2
+t1259896307
+s466
+i"FlipsideView.h"
+
+N/Users/spector/Desktop/CoreLocationTest/Classes/FlipsideViewController.h
+c000000004B187DF30000000000000227
+t1259896307
+s551
+
+N/Users/spector/Desktop/CoreLocationTest/Classes/FlipsideViewController.m
+c000000004B187DF30000000000000466
+t1259896307
+s1126
+i"FlipsideViewController.h"
+
+N/Users/spector/Desktop/CoreLocationTest/Classes/MainView.h
+c000000004B1885BA00000000000000E1
+t1259898298
+s225
+i<UIKit/UIKit.h>
+
+N/Users/spector/Desktop/CoreLocationTest/Classes/MainView.m
+c000000004B1885FC00000000000001C6
+t1259898364
+s454
+i"MainView.h"
+
+N/Users/spector/Desktop/CoreLocationTest/Classes/MainViewController.h
+c000000004B19734A000000000000071B
+t1259959114
+s1819
+i"FlipsideViewController.h"
+i<MapKit/MapKit.h>
+i<MapKit/MKAnnotation.h>
+i<MapKit/MKReverseGeocoder.h>
+i<CoreLocation/CoreLocation.h>
+
+N/Users/spector/Desktop/CoreLocationTest/Classes/MainViewController.m
+c000000004B19C3CB0000000000001C46
+t1259979723
+s7238
+i"MainViewController.h"
+i"MainView.h"
+
+N/Users/spector/Desktop/CoreLocationTest/FlipsideView.xib
+c000000004B187DF3000000000000268D
+t1259896307
+s9869
+
+N/Users/spector/Desktop/CoreLocationTest/MainView.xib
+c000000004B198134000000000000B65A
+t1259962676
+s46682
+
+N/Users/spector/Desktop/CoreLocationTest/MainWindow.xib
+c000000004B187DF30000000000001E34
+t1259896307
+s7732
+
+N/Users/spector/Desktop/CoreLocationTest/SensorToy_Prefix.pch
+c000000004B187DF30000000000000152
+t1259896307
+s338
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/spector/Desktop/CoreLocationTest/build/Debug-iphoneos/SensorToy.app
+t1259979728
+s408
+
+N/Users/spector/Desktop/CoreLocationTest/build/Debug-iphoneos/SensorToy.app.dSYM
+t1259979727
+s102
+
+N/Users/spector/Desktop/CoreLocationTest/build/Debug-iphoneos/SensorToy.app/FlipsideView.nib
+t1259964185
+s1802
+
+N/Users/spector/Desktop/CoreLocationTest/build/Debug-iphoneos/SensorToy.app/Info.plist
+t1259964185
+s638
+
+N/Users/spector/Desktop/CoreLocationTest/build/Debug-iphoneos/SensorToy.app/MainView.nib
+t1259964185
+s7159
+
+N/Users/spector/Desktop/CoreLocationTest/build/Debug-iphoneos/SensorToy.app/MainWindow.nib
+t1259964185
+s1388
+
+N/Users/spector/Desktop/CoreLocationTest/build/Debug-iphoneos/SensorToy.app/PkgInfo
+t1259964185
+s8
+
+N/Users/spector/Desktop/CoreLocationTest/build/Debug-iphoneos/SensorToy.app/ResourceRules.plist
+t1259964185
+s485
+
+N/Users/spector/Desktop/CoreLocationTest/build/Debug-iphoneos/SensorToy.app/SensorToy
+t1259979727
+s33024
+
+N/Users/spector/Desktop/CoreLocationTest/build/Debug-iphoneos/SensorToy.app/embedded.mobileprovision
+t1259979351
+s7308
+
+N/Users/spector/Desktop/CoreLocationTest/build/SensorToy.build/Debug-iphoneos/SensorToy.build/Objects-normal/armv6/CoreLocationTestAppDelegate.o
+t1259964186
+s44668
+
+N/Users/spector/Desktop/CoreLocationTest/build/SensorToy.build/Debug-iphoneos/SensorToy.build/Objects-normal/armv6/FlipsideView.o
+t1259964186
+s9612
+
+N/Users/spector/Desktop/CoreLocationTest/build/SensorToy.build/Debug-iphoneos/SensorToy.build/Objects-normal/armv6/FlipsideViewController.o
+t1259964187
+s32968
+
+N/Users/spector/Desktop/CoreLocationTest/build/SensorToy.build/Debug-iphoneos/SensorToy.build/Objects-normal/armv6/MainView.o
+t1259964186
+s9552
+
+N/Users/spector/Desktop/CoreLocationTest/build/SensorToy.build/Debug-iphoneos/SensorToy.build/Objects-normal/armv6/MainViewController.o
+t1259979727
+s65132
+
+N/Users/spector/Desktop/CoreLocationTest/build/SensorToy.build/Debug-iphoneos/SensorToy.build/Objects-normal/armv6/SensorToy.LinkFileList
+c000000004B1987190000000000000319
+t1259964185
+s793
+
+N/Users/spector/Desktop/CoreLocationTest/build/SensorToy.build/Debug-iphoneos/SensorToy.build/Objects-normal/armv6/main.o
+t1259964186
+s6552
+
+N/Users/spector/Desktop/CoreLocationTest/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy.xcent
+t1259964187
+s322
+
+N/Users/spector/Desktop/CoreLocationTest/main.m
+c000000004B187DF30000000000000182
+t1259896307
+s386
+i<UIKit/UIKit.h>
+
+N/Users/spector/Desktop/SensorToy/../../Work/ZeitgeistInfoSysLLC/MacintoshSoftwareDevelopment/iPhoneDevelopment/iPhoneSpecifcLibraries/libisimulate-3.x-noOpenGL/libisimulate.a
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/spector/Desktop/SensorToy/Classes/CoreLocationTestAppDelegate.h
+c000000004B187DF300000000000001E7
+t1259896307
+s487
+
+N/Users/spector/Desktop/SensorToy/Classes/CoreLocationTestAppDelegate.m
+c000000004B187DF3000000000000035B
+t1259896307
+s859
+i"CoreLocationTestAppDelegate.h"
+i"MainViewController.h"
+
+N/Users/spector/Desktop/SensorToy/Classes/FlipsideView.h
+c000000004B187DF300000000000000D2
+t1259896307
+s210
+
+N/Users/spector/Desktop/SensorToy/Classes/FlipsideView.m
+c000000004B187DF300000000000001D2
+t1259896307
+s466
+i"FlipsideView.h"
+
+N/Users/spector/Desktop/SensorToy/Classes/FlipsideViewController.h
+c000000004B187DF30000000000000227
+t1259896307
+s551
+
+N/Users/spector/Desktop/SensorToy/Classes/FlipsideViewController.m
+c000000004B187DF30000000000000466
+t1259896307
+s1126
+i"FlipsideViewController.h"
+
+N/Users/spector/Desktop/SensorToy/Classes/MainView.h
+c000000004B1885BA00000000000000E1
+t1259898298
+s225
+i<UIKit/UIKit.h>
+
+N/Users/spector/Desktop/SensorToy/Classes/MainView.m
+c000000004B1885FC00000000000001C6
+t1259898364
+s454
+i"MainView.h"
+
+N/Users/spector/Desktop/SensorToy/Classes/MainViewController.h
+c000000004B19FC820000000000000888
+t1259994242
+s2184
+i"FlipsideViewController.h"
+i<MapKit/MapKit.h>
+i<MapKit/MKAnnotation.h>
+i<MapKit/MKReverseGeocoder.h>
+i<CoreLocation/CoreLocation.h>
+i"Reachability.h"
+
+N/Users/spector/Desktop/SensorToy/Classes/MainViewController.m
+c000000004B1A0747000000000000309C
+t1259996999
+s12444
+i"MainViewController.h"
+i"MainView.h"
+
+N/Users/spector/Desktop/SensorToy/Classes/Reachability/Reachability.h
+c000000004A730E7C00000000000013B4
+t1249054332
+s5044
+i<UIKit/UIKit.h>
+i<SystemConfiguration/SystemConfiguration.h>
+
+N/Users/spector/Desktop/SensorToy/Classes/Reachability/Reachability.m
+c000000004A730E7C0000000000005B34
+t1249054332
+s23348
+i<sys/socket.h>
+i<netinet/in.h>
+i<netinet6/in6.h>
+i<arpa/inet.h>
+i<ifaddrs.h>
+i<netdb.h>
+i"Reachability.h"
+i<SystemConfiguration/SCNetworkReachability.h>
+
+N/Users/spector/Desktop/SensorToy/FlipsideView.xib
+c000000004B1A07360000000000005D01
+t1259996982
+s23809
+
+N/Users/spector/Desktop/SensorToy/Graphics/01-refresh.png
+c00000000497216BE00000000000001CB
+t1232213694
+s459
+
+N/Users/spector/Desktop/SensorToy/Graphics/103-map.png
+c000000004AA700CA00000000000001FB
+t1252458698
+s507
+
+N/Users/spector/Desktop/SensorToy/Graphics/71-compass.png
+c000000004A26CC760000000000000164
+t1244056694
+s356
+
+N/Users/spector/Desktop/SensorToy/Graphics/74-location.png
+c0000000049FE31640000000000000125
+t1241395556
+s293
+
+N/Users/spector/Desktop/SensorToy/Graphics/map-marker.png
+c000000004A88D23C00000000000000E0
+t1250480700
+s224
+
+N/Users/spector/Desktop/SensorToy/Graphics/tack.png
+c000000004A67F45400000000000001FE
+t1248326740
+s510
+
+N/Users/spector/Desktop/SensorToy/Graphics/tack_small.png
+c000000004A67F4DE00000000000001D4
+t1248326878
+s468
+
+N/Users/spector/Desktop/SensorToy/Graphics/target.png
+c000000004A66B42F000000000000033C
+t1248244783
+s828
+
+N/Users/spector/Desktop/SensorToy/Graphics/target_small.png
+c000000004A66B4640000000000000242
+t1248244836
+s578
+
+N/Users/spector/Desktop/SensorToy/MainView.xib
+c000000004B1A0744000000000000D17A
+t1259996996
+s53626
+
+N/Users/spector/Desktop/SensorToy/MainWindow.xib
+c000000004B187DF30000000000001E34
+t1259896307
+s7732
+
+N/Users/spector/Desktop/SensorToy/SensorToy.png
+c000000004B1A6DBB0000000000001241
+t1260023227
+s4673
+
+N/Users/spector/Desktop/SensorToy/SensorToy_Prefix.pch
+c000000004B187DF30000000000000152
+t1259896307
+s338
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app
+t1259997502
+s714
+
+N/Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app.dSYM
+t1259997000
+s102
+
+N/Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/01-refresh.png
+t1259983947
+s585
+
+N/Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/103-map.png
+t1259983947
+s536
+
+N/Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/71-compass.png
+t1259983260
+s462
+
+N/Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/74-location.png
+t1259983260
+s351
+
+N/Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/FlipsideView.nib
+t1259996999
+s3035
+
+N/Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/Info.plist
+t1260023577
+s853
+
+N/Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/MainView.nib
+t1259996999
+s8667
+
+N/Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/MainWindow.nib
+t1259964185
+s1388
+
+N/Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/PkgInfo
+t1260023577
+s8
+
+N/Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/ResourceRules.plist
+t1259964185
+s485
+
+N/Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/SensorToy
+t2
+s0
+
+N/Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/SensorToy.png
+t1260023577
+s4596
+
+N/Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/embedded.mobileprovision
+t1259979351
+s7308
+
+N/Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/map-marker.png
+t1259983260
+s282
+
+N/Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/tack.png
+t1259983260
+s771
+
+N/Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/tack_small.png
+t1259983260
+s738
+
+N/Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/target.png
+t1259983260
+s1229
+
+N/Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/target_small.png
+t1259983260
+s1105
+
+N/Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/Objects-normal/armv6/CoreLocationTestAppDelegate.o
+t1260023579
+s45020
+
+N/Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/Objects-normal/armv6/FlipsideView.o
+t1260023579
+s9596
+
+N/Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/Objects-normal/armv6/FlipsideViewController.o
+t1260023579
+s32952
+
+N/Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/Objects-normal/armv6/MainView.o
+t1260023579
+s9536
+
+N/Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/Objects-normal/armv6/MainViewController.o
+t1260023579
+s75304
+
+N/Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/Objects-normal/armv6/Reachability.o
+t1260023579
+s46156
+
+N/Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/Objects-normal/armv6/SensorToy.LinkFileList
+c000000004B19DDEF0000000000000369
+t1259986415
+s873
+
+N/Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/Objects-normal/armv6/main.o
+t1260023579
+s6536
+
+N/Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy.xcent
+t1260023579
+s322
+
+N/Users/spector/Desktop/SensorToy/main.m
+c000000004B187DF30000000000000182
+t1259896307
+s386
+i<UIKit/UIKit.h>
+
+N/Users/spector/Library/MobileDevice/Provisioning Profiles/B47C3F3E-36BC-4960-B162-16E6D4D5E2D1.mobileprovision
+c000000004AE3D9580000000000001C8C
+t1256446296
+s7308
+
+N/var/folders/Ln/LnL2rSakHWmIaxW99THfd++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SensorToy_Prefix-djoyqcuntwzmwkdllhfnsbvzqthr/SensorToy_Prefix.pch.gch
+t1259981859
+s7876792
+
+N/var/folders/Ln/LnL2rSakHWmIaxW99THfd++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SensorToy_Prefix-fqukfgiertkuszdesfgdwdykdurx/SensorToy_Prefix.pch.gch
+t1259964186
+s7876792
+
+N/var/folders/ko/ko7HD0qPFWGFCjTB1d7Pxk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SensorToy_Prefix-djoyqcuntwzmwkdllhfnsbvzqthr/SensorToy_Prefix.pch.gch
+t1260023578
+s7876792
+
+NSensorToy-Info.plist
+c000000004B1A6F130000000000000441
+t1260023571
+s1089
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies281716376#281716377#0(0"0(0#1#0"7947009927035180032#0"0#
+
+CCodeSign /Users/spector/Desktop/CoreLocationTest/build/Debug-iphoneos/SensorToy.app
+s281672527.893149
+e281672528.699588
+r1
+xCodeSign
+x/Users/spector/Desktop/CoreLocationTest/build/Debug-iphoneos/SensorToy.app
+lSLF07#2@43"CodeSign build/Debug-iphoneos/SensorToy.app281672527#281672528#0(0"0(0#0#74"/Users/spector/Desktop/CoreLocationTest/build/Debug-iphoneos/SensorToy.app4300934600#723"    cd /Users/spector/Desktop/CoreLocationTest    setenv CODESIGN_ALLOCATE /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/codesign -f -s "iPhone Developer: David Spector (F2RG9ADJ3J)" --resource-rules=/Users/spector/Desktop/CoreLocationTest/build/Debug-iphoneos/SensorToy.app/ResourceRules.plist --entitlements /Users/spector/Desktop/CoreLocationTest/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy.xcent /Users/spector/Desktop/CoreLocationTest/build/Debug-iphoneos/SensorToy.app0#
+
+CCodeSign /Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app
+s281690301.883289
+e281690302.420828
+r1
+xCodeSign
+x/Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app
+o/Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app: replacing existing signature
+lSLF07#2@43"CodeSign build/Debug-iphoneos/SensorToy.app281690301#281690302#0(98"/Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app: replacing existing signature0(0#0#67"/Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app4300934600#695"    cd /Users/spector/Desktop/SensorToy    setenv CODESIGN_ALLOCATE /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/codesign -f -s "iPhone Developer: David Spector (F2RG9ADJ3J)" --resource-rules=/Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/ResourceRules.plist --entitlements /Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy.xcent /Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app0#
+
+CCompileC build/SensorToy.build/Debug-iphoneos/SensorToy.build/Objects-normal/armv6/CoreLocationTestAppDelegate.o /Users/spector/Desktop/CoreLocationTest/Classes/CoreLocationTestAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s281656986.687899
+e281656986.996390
+r1
+xCompileC
+xbuild/SensorToy.build/Debug-iphoneos/SensorToy.build/Objects-normal/armv6/CoreLocationTestAppDelegate.o
+x/Users/spector/Desktop/CoreLocationTest/Classes/CoreLocationTestAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/spector/Desktop/CoreLocationTest/Classes/CoreLocationTestAppDelegate.m281656986#281656986#0(0"0(0#0#77"/Users/spector/Desktop/CoreLocationTest/Classes/CoreLocationTestAppDelegate.m4300934600#1895"    cd /Users/spector/Desktop/CoreLocationTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/spector/Desktop/CoreLocationTest/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-generated-files.hmap -I/Users/spector/Desktop/CoreLocationTest/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-own-target-headers.hmap -I/Users/spector/Desktop/CoreLocationTest/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-all-target-headers.hmap -iquote /Users/spector/Desktop/CoreLocationTest/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-project-headers.hmap -F/Users/spector/Desktop/CoreLocationTest/build/Debug-iphoneos -I/Users/spector/Desktop/CoreLocationTest/build/Debug-iphoneos/include -I/Users/spector/Desktop/CoreLocationTest/build/SensorToy.build/Debug-iphoneos/SensorToy.build/DerivedSources/armv6 -I/Users/spector/Desktop/CoreLocationTest/build/SensorToy.build/Debug-iphoneos/SensorToy.build/DerivedSources -include /var/folders/Ln/LnL2rSakHWmIaxW99THfd++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SensorToy_Prefix-fqukfgiertkuszdesfgdwdykdurx/SensorToy_Prefix.pch -c /Users/spector/Desktop/CoreLocationTest/Classes/CoreLocationTestAppDelegate.m -o /Users/spector/Desktop/CoreLocationTest/build/SensorToy.build/Debug-iphoneos/SensorToy.build/Objects-normal/armv6/CoreLocationTestAppDelegate.o0#
+
+CCompileC build/SensorToy.build/Debug-iphoneos/SensorToy.build/Objects-normal/armv6/CoreLocationTestAppDelegate.o /Users/spector/Desktop/SensorToy/Classes/CoreLocationTestAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s281716378.837175
+e281716379.054556
+r1
+xCompileC
+xbuild/SensorToy.build/Debug-iphoneos/SensorToy.build/Objects-normal/armv6/CoreLocationTestAppDelegate.o
+x/Users/spector/Desktop/SensorToy/Classes/CoreLocationTestAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/spector/Desktop/SensorToy/Classes/CoreLocationTestAppDelegate.m281716378#281716379#0(0"0(0#0#70"/Users/spector/Desktop/SensorToy/Classes/CoreLocationTestAppDelegate.m4300885448#1756"    cd /Users/spector/Desktop/SensorToy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-generated-files.hmap -I/Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-own-target-headers.hmap -I/Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-all-target-headers.hmap -iquote /Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-project-headers.hmap -F/Users/spector/Desktop/SensorToy/build/Debug-iphoneos -I/Users/spector/Desktop/SensorToy/build/Debug-iphoneos/include -I/Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/DerivedSources/armv6 -I/Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/DerivedSources -include /var/folders/ko/ko7HD0qPFWGFCjTB1d7Pxk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SensorToy_Prefix-djoyqcuntwzmwkdllhfnsbvzqthr/SensorToy_Prefix.pch -c /Users/spector/Desktop/SensorToy/Classes/CoreLocationTestAppDelegate.m -o /Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/Objects-normal/armv6/CoreLocationTestAppDelegate.o0#
+
+CCompileC build/SensorToy.build/Debug-iphoneos/SensorToy.build/Objects-normal/armv6/FlipsideView.o /Users/spector/Desktop/CoreLocationTest/Classes/FlipsideView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s281656986.689421
+e281656986.994096
+r1
+xCompileC
+xbuild/SensorToy.build/Debug-iphoneos/SensorToy.build/Objects-normal/armv6/FlipsideView.o
+x/Users/spector/Desktop/CoreLocationTest/Classes/FlipsideView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/spector/Desktop/CoreLocationTest/Classes/FlipsideView.m281656986#281656986#0(0"0(0#0#62"/Users/spector/Desktop/CoreLocationTest/Classes/FlipsideView.m4300934600#1865"    cd /Users/spector/Desktop/CoreLocationTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/spector/Desktop/CoreLocationTest/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-generated-files.hmap -I/Users/spector/Desktop/CoreLocationTest/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-own-target-headers.hmap -I/Users/spector/Desktop/CoreLocationTest/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-all-target-headers.hmap -iquote /Users/spector/Desktop/CoreLocationTest/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-project-headers.hmap -F/Users/spector/Desktop/CoreLocationTest/build/Debug-iphoneos -I/Users/spector/Desktop/CoreLocationTest/build/Debug-iphoneos/include -I/Users/spector/Desktop/CoreLocationTest/build/SensorToy.build/Debug-iphoneos/SensorToy.build/DerivedSources/armv6 -I/Users/spector/Desktop/CoreLocationTest/build/SensorToy.build/Debug-iphoneos/SensorToy.build/DerivedSources -include /var/folders/Ln/LnL2rSakHWmIaxW99THfd++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SensorToy_Prefix-fqukfgiertkuszdesfgdwdykdurx/SensorToy_Prefix.pch -c /Users/spector/Desktop/CoreLocationTest/Classes/FlipsideView.m -o /Users/spector/Desktop/CoreLocationTest/build/SensorToy.build/Debug-iphoneos/SensorToy.build/Objects-normal/armv6/FlipsideView.o0#
+
+CCompileC build/SensorToy.build/Debug-iphoneos/SensorToy.build/Objects-normal/armv6/FlipsideView.o /Users/spector/Desktop/SensorToy/Classes/FlipsideView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s281716379.036555
+e281716379.096309
+r1
+xCompileC
+xbuild/SensorToy.build/Debug-iphoneos/SensorToy.build/Objects-normal/armv6/FlipsideView.o
+x/Users/spector/Desktop/SensorToy/Classes/FlipsideView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/spector/Desktop/SensorToy/Classes/FlipsideView.m281716379#281716379#0(0"0(0#0#55"/Users/spector/Desktop/SensorToy/Classes/FlipsideView.m4300885448#1726"    cd /Users/spector/Desktop/SensorToy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-generated-files.hmap -I/Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-own-target-headers.hmap -I/Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-all-target-headers.hmap -iquote /Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-project-headers.hmap -F/Users/spector/Desktop/SensorToy/build/Debug-iphoneos -I/Users/spector/Desktop/SensorToy/build/Debug-iphoneos/include -I/Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/DerivedSources/armv6 -I/Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/DerivedSources -include /var/folders/ko/ko7HD0qPFWGFCjTB1d7Pxk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SensorToy_Prefix-djoyqcuntwzmwkdllhfnsbvzqthr/SensorToy_Prefix.pch -c /Users/spector/Desktop/SensorToy/Classes/FlipsideView.m -o /Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/Objects-normal/armv6/FlipsideView.o0#
+
+CCompileC build/SensorToy.build/Debug-iphoneos/SensorToy.build/Objects-normal/armv6/FlipsideViewController.o /Users/spector/Desktop/CoreLocationTest/Classes/FlipsideViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s281656986.996780
+e281656987.060690
+r1
+xCompileC
+xbuild/SensorToy.build/Debug-iphoneos/SensorToy.build/Objects-normal/armv6/FlipsideViewController.o
+x/Users/spector/Desktop/CoreLocationTest/Classes/FlipsideViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/spector/Desktop/CoreLocationTest/Classes/FlipsideViewController.m281656986#281656987#0(0"0(0#0#72"/Users/spector/Desktop/CoreLocationTest/Classes/FlipsideViewController.m4300934600#1885"    cd /Users/spector/Desktop/CoreLocationTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/spector/Desktop/CoreLocationTest/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-generated-files.hmap -I/Users/spector/Desktop/CoreLocationTest/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-own-target-headers.hmap -I/Users/spector/Desktop/CoreLocationTest/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-all-target-headers.hmap -iquote /Users/spector/Desktop/CoreLocationTest/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-project-headers.hmap -F/Users/spector/Desktop/CoreLocationTest/build/Debug-iphoneos -I/Users/spector/Desktop/CoreLocationTest/build/Debug-iphoneos/include -I/Users/spector/Desktop/CoreLocationTest/build/SensorToy.build/Debug-iphoneos/SensorToy.build/DerivedSources/armv6 -I/Users/spector/Desktop/CoreLocationTest/build/SensorToy.build/Debug-iphoneos/SensorToy.build/DerivedSources -include /var/folders/Ln/LnL2rSakHWmIaxW99THfd++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SensorToy_Prefix-fqukfgiertkuszdesfgdwdykdurx/SensorToy_Prefix.pch -c /Users/spector/Desktop/CoreLocationTest/Classes/FlipsideViewController.m -o /Users/spector/Desktop/CoreLocationTest/build/SensorToy.build/Debug-iphoneos/SensorToy.build/Objects-normal/armv6/FlipsideViewController.o0#
+
+CCompileC build/SensorToy.build/Debug-iphoneos/SensorToy.build/Objects-normal/armv6/FlipsideViewController.o /Users/spector/Desktop/SensorToy/Classes/FlipsideViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s281716379.121386
+e281716379.190606
+r1
+xCompileC
+xbuild/SensorToy.build/Debug-iphoneos/SensorToy.build/Objects-normal/armv6/FlipsideViewController.o
+x/Users/spector/Desktop/SensorToy/Classes/FlipsideViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/spector/Desktop/SensorToy/Classes/FlipsideViewController.m281716379#281716379#0(0"0(0#0#65"/Users/spector/Desktop/SensorToy/Classes/FlipsideViewController.m4300885448#1746"    cd /Users/spector/Desktop/SensorToy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-generated-files.hmap -I/Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-own-target-headers.hmap -I/Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-all-target-headers.hmap -iquote /Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-project-headers.hmap -F/Users/spector/Desktop/SensorToy/build/Debug-iphoneos -I/Users/spector/Desktop/SensorToy/build/Debug-iphoneos/include -I/Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/DerivedSources/armv6 -I/Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/DerivedSources -include /var/folders/ko/ko7HD0qPFWGFCjTB1d7Pxk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SensorToy_Prefix-djoyqcuntwzmwkdllhfnsbvzqthr/SensorToy_Prefix.pch -c /Users/spector/Desktop/SensorToy/Classes/FlipsideViewController.m -o /Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/Objects-normal/armv6/FlipsideViewController.o0#
+
+CCompileC build/SensorToy.build/Debug-iphoneos/SensorToy.build/Objects-normal/armv6/MainView.o /Users/spector/Desktop/CoreLocationTest/Classes/MainView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s281656986.690519
+e281656986.996531
+r1
+xCompileC
+xbuild/SensorToy.build/Debug-iphoneos/SensorToy.build/Objects-normal/armv6/MainView.o
+x/Users/spector/Desktop/CoreLocationTest/Classes/MainView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/spector/Desktop/CoreLocationTest/Classes/MainView.m281656986#281656986#0(0"0(0#0#58"/Users/spector/Desktop/CoreLocationTest/Classes/MainView.m4300934600#1857"    cd /Users/spector/Desktop/CoreLocationTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/spector/Desktop/CoreLocationTest/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-generated-files.hmap -I/Users/spector/Desktop/CoreLocationTest/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-own-target-headers.hmap -I/Users/spector/Desktop/CoreLocationTest/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-all-target-headers.hmap -iquote /Users/spector/Desktop/CoreLocationTest/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-project-headers.hmap -F/Users/spector/Desktop/CoreLocationTest/build/Debug-iphoneos -I/Users/spector/Desktop/CoreLocationTest/build/Debug-iphoneos/include -I/Users/spector/Desktop/CoreLocationTest/build/SensorToy.build/Debug-iphoneos/SensorToy.build/DerivedSources/armv6 -I/Users/spector/Desktop/CoreLocationTest/build/SensorToy.build/Debug-iphoneos/SensorToy.build/DerivedSources -include /var/folders/Ln/LnL2rSakHWmIaxW99THfd++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SensorToy_Prefix-fqukfgiertkuszdesfgdwdykdurx/SensorToy_Prefix.pch -c /Users/spector/Desktop/CoreLocationTest/Classes/MainView.m -o /Users/spector/Desktop/CoreLocationTest/build/SensorToy.build/Debug-iphoneos/SensorToy.build/Objects-normal/armv6/MainView.o0#
+
+CCompileC build/SensorToy.build/Debug-iphoneos/SensorToy.build/Objects-normal/armv6/MainView.o /Users/spector/Desktop/SensorToy/Classes/MainView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s281716379.054660
+e281716379.121275
+r1
+xCompileC
+xbuild/SensorToy.build/Debug-iphoneos/SensorToy.build/Objects-normal/armv6/MainView.o
+x/Users/spector/Desktop/SensorToy/Classes/MainView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/spector/Desktop/SensorToy/Classes/MainView.m281716379#281716379#0(0"0(0#0#51"/Users/spector/Desktop/SensorToy/Classes/MainView.m4300885448#1718"    cd /Users/spector/Desktop/SensorToy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-generated-files.hmap -I/Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-own-target-headers.hmap -I/Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-all-target-headers.hmap -iquote /Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-project-headers.hmap -F/Users/spector/Desktop/SensorToy/build/Debug-iphoneos -I/Users/spector/Desktop/SensorToy/build/Debug-iphoneos/include -I/Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/DerivedSources/armv6 -I/Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/DerivedSources -include /var/folders/ko/ko7HD0qPFWGFCjTB1d7Pxk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SensorToy_Prefix-djoyqcuntwzmwkdllhfnsbvzqthr/SensorToy_Prefix.pch -c /Users/spector/Desktop/SensorToy/Classes/MainView.m -o /Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/Objects-normal/armv6/MainView.o0#
+
+CCompileC build/SensorToy.build/Debug-iphoneos/SensorToy.build/Objects-normal/armv6/MainViewController.o /Users/spector/Desktop/CoreLocationTest/Classes/MainViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s281672527.588240
+e281672527.790398
+r1
+xCompileC
+xbuild/SensorToy.build/Debug-iphoneos/SensorToy.build/Objects-normal/armv6/MainViewController.o
+x/Users/spector/Desktop/CoreLocationTest/Classes/MainViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/spector/Desktop/CoreLocationTest/Classes/MainViewController.m281672527#281672527#0(0"0(0#0#68"/Users/spector/Desktop/CoreLocationTest/Classes/MainViewController.m4300934600#1877"    cd /Users/spector/Desktop/CoreLocationTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/spector/Desktop/CoreLocationTest/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-generated-files.hmap -I/Users/spector/Desktop/CoreLocationTest/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-own-target-headers.hmap -I/Users/spector/Desktop/CoreLocationTest/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-all-target-headers.hmap -iquote /Users/spector/Desktop/CoreLocationTest/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-project-headers.hmap -F/Users/spector/Desktop/CoreLocationTest/build/Debug-iphoneos -I/Users/spector/Desktop/CoreLocationTest/build/Debug-iphoneos/include -I/Users/spector/Desktop/CoreLocationTest/build/SensorToy.build/Debug-iphoneos/SensorToy.build/DerivedSources/armv6 -I/Users/spector/Desktop/CoreLocationTest/build/SensorToy.build/Debug-iphoneos/SensorToy.build/DerivedSources -include /var/folders/Ln/LnL2rSakHWmIaxW99THfd++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SensorToy_Prefix-fqukfgiertkuszdesfgdwdykdurx/SensorToy_Prefix.pch -c /Users/spector/Desktop/CoreLocationTest/Classes/MainViewController.m -o /Users/spector/Desktop/CoreLocationTest/build/SensorToy.build/Debug-iphoneos/SensorToy.build/Objects-normal/armv6/MainViewController.o0#
+
+CCompileC build/SensorToy.build/Debug-iphoneos/SensorToy.build/Objects-normal/armv6/MainViewController.o /Users/spector/Desktop/SensorToy/Classes/MainViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s281716379.096418
+e281716379.366320
+r1
+xCompileC
+xbuild/SensorToy.build/Debug-iphoneos/SensorToy.build/Objects-normal/armv6/MainViewController.o
+x/Users/spector/Desktop/SensorToy/Classes/MainViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/spector/Desktop/SensorToy/Classes/MainViewController.m281716379#281716379#0(0"0(0#0#61"/Users/spector/Desktop/SensorToy/Classes/MainViewController.m4300885448#1738"    cd /Users/spector/Desktop/SensorToy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-generated-files.hmap -I/Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-own-target-headers.hmap -I/Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-all-target-headers.hmap -iquote /Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-project-headers.hmap -F/Users/spector/Desktop/SensorToy/build/Debug-iphoneos -I/Users/spector/Desktop/SensorToy/build/Debug-iphoneos/include -I/Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/DerivedSources/armv6 -I/Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/DerivedSources -include /var/folders/ko/ko7HD0qPFWGFCjTB1d7Pxk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SensorToy_Prefix-djoyqcuntwzmwkdllhfnsbvzqthr/SensorToy_Prefix.pch -c /Users/spector/Desktop/SensorToy/Classes/MainViewController.m -o /Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/Objects-normal/armv6/MainViewController.o0#
+
+CCompileC build/SensorToy.build/Debug-iphoneos/SensorToy.build/Objects-normal/armv6/Reachability.o /Users/spector/Desktop/SensorToy/Classes/Reachability/Reachability.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s281716379.190715
+e281716379.366581
+r1
+xCompileC
+xbuild/SensorToy.build/Debug-iphoneos/SensorToy.build/Objects-normal/armv6/Reachability.o
+x/Users/spector/Desktop/SensorToy/Classes/Reachability/Reachability.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/spector/Desktop/SensorToy/Classes/Reachability/Reachability.m281716379#281716379#0(0"0(0#0#68"/Users/spector/Desktop/SensorToy/Classes/Reachability/Reachability.m4300885448#1739"    cd /Users/spector/Desktop/SensorToy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-generated-files.hmap -I/Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-own-target-headers.hmap -I/Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-all-target-headers.hmap -iquote /Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-project-headers.hmap -F/Users/spector/Desktop/SensorToy/build/Debug-iphoneos -I/Users/spector/Desktop/SensorToy/build/Debug-iphoneos/include -I/Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/DerivedSources/armv6 -I/Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/DerivedSources -include /var/folders/ko/ko7HD0qPFWGFCjTB1d7Pxk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SensorToy_Prefix-djoyqcuntwzmwkdllhfnsbvzqthr/SensorToy_Prefix.pch -c /Users/spector/Desktop/SensorToy/Classes/Reachability/Reachability.m -o /Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/Objects-normal/armv6/Reachability.o0#
+
+CCompileC build/SensorToy.build/Debug-iphoneos/SensorToy.build/Objects-normal/armv6/main.o /Users/spector/Desktop/CoreLocationTest/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s281656986.685843
+e281656986.996231
+r1
+xCompileC
+xbuild/SensorToy.build/Debug-iphoneos/SensorToy.build/Objects-normal/armv6/main.o
+x/Users/spector/Desktop/CoreLocationTest/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/spector/Desktop/CoreLocationTest/main.m281656986#281656986#0(0"0(0#0#46"/Users/spector/Desktop/CoreLocationTest/main.m4300934600#1841"    cd /Users/spector/Desktop/CoreLocationTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/spector/Desktop/CoreLocationTest/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-generated-files.hmap -I/Users/spector/Desktop/CoreLocationTest/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-own-target-headers.hmap -I/Users/spector/Desktop/CoreLocationTest/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-all-target-headers.hmap -iquote /Users/spector/Desktop/CoreLocationTest/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-project-headers.hmap -F/Users/spector/Desktop/CoreLocationTest/build/Debug-iphoneos -I/Users/spector/Desktop/CoreLocationTest/build/Debug-iphoneos/include -I/Users/spector/Desktop/CoreLocationTest/build/SensorToy.build/Debug-iphoneos/SensorToy.build/DerivedSources/armv6 -I/Users/spector/Desktop/CoreLocationTest/build/SensorToy.build/Debug-iphoneos/SensorToy.build/DerivedSources -include /var/folders/Ln/LnL2rSakHWmIaxW99THfd++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SensorToy_Prefix-fqukfgiertkuszdesfgdwdykdurx/SensorToy_Prefix.pch -c /Users/spector/Desktop/CoreLocationTest/main.m -o /Users/spector/Desktop/CoreLocationTest/build/SensorToy.build/Debug-iphoneos/SensorToy.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/SensorToy.build/Debug-iphoneos/SensorToy.build/Objects-normal/armv6/main.o /Users/spector/Desktop/SensorToy/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s281716378.835563
+e281716379.036444
+r1
+xCompileC
+xbuild/SensorToy.build/Debug-iphoneos/SensorToy.build/Objects-normal/armv6/main.o
+x/Users/spector/Desktop/SensorToy/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Compile /Users/spector/Desktop/SensorToy/main.m281716378#281716379#0(0"0(0#0#39"/Users/spector/Desktop/SensorToy/main.m4300885448#1702"    cd /Users/spector/Desktop/SensorToy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-generated-files.hmap -I/Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-own-target-headers.hmap -I/Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-all-target-headers.hmap -iquote /Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-project-headers.hmap -F/Users/spector/Desktop/SensorToy/build/Debug-iphoneos -I/Users/spector/Desktop/SensorToy/build/Debug-iphoneos/include -I/Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/DerivedSources/armv6 -I/Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/DerivedSources -include /var/folders/ko/ko7HD0qPFWGFCjTB1d7Pxk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SensorToy_Prefix-djoyqcuntwzmwkdllhfnsbvzqthr/SensorToy_Prefix.pch -c /Users/spector/Desktop/SensorToy/main.m -o /Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/Objects-normal/armv6/main.o0#
+
+CCompileXIB /Users/spector/Desktop/CoreLocationTest/FlipsideView.xib
+s281656985.361029
+e281656985.741121
+r1
+xCompileXIB
+x/Users/spector/Desktop/CoreLocationTest/FlipsideView.xib
+lSLF07#2@27"CompileXIB FlipsideView.xib281656985#281656985#0(0"0(0#0#56"/Users/spector/Desktop/CoreLocationTest/FlipsideView.xib4300934600#539"    cd /Users/spector/Desktop/CoreLocationTest    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/spector/Desktop/CoreLocationTest/build/Debug-iphoneos/SensorToy.app/FlipsideView.nib /Users/spector/Desktop/CoreLocationTest/FlipsideView.xib0#
+
+CCompileXIB /Users/spector/Desktop/CoreLocationTest/MainView.xib
+s281656985.362014
+e281656985.929890
+r1
+xCompileXIB
+x/Users/spector/Desktop/CoreLocationTest/MainView.xib
+lSLF07#2@23"CompileXIB MainView.xib281656985#281656985#0(0"0(0#0#52"/Users/spector/Desktop/CoreLocationTest/MainView.xib4300934600#531"    cd /Users/spector/Desktop/CoreLocationTest    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/spector/Desktop/CoreLocationTest/build/Debug-iphoneos/SensorToy.app/MainView.nib /Users/spector/Desktop/CoreLocationTest/MainView.xib0#
+
+CCompileXIB /Users/spector/Desktop/CoreLocationTest/MainWindow.xib
+s281656985.363138
+e281656985.742509
+r1
+xCompileXIB
+x/Users/spector/Desktop/CoreLocationTest/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib281656985#281656985#0(0"0(0#0#54"/Users/spector/Desktop/CoreLocationTest/MainWindow.xib4300934600#535"    cd /Users/spector/Desktop/CoreLocationTest    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/spector/Desktop/CoreLocationTest/build/Debug-iphoneos/SensorToy.app/MainWindow.nib /Users/spector/Desktop/CoreLocationTest/MainWindow.xib0#
+
+CCompileXIB /Users/spector/Desktop/SensorToy/FlipsideView.xib
+s281689799.188752
+e281689799.573934
+r1
+xCompileXIB
+x/Users/spector/Desktop/SensorToy/FlipsideView.xib
+lSLF07#2@27"CompileXIB FlipsideView.xib281689799#281689799#0(0"0(0#0#49"/Users/spector/Desktop/SensorToy/FlipsideView.xib4300934600#518"    cd /Users/spector/Desktop/SensorToy    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/FlipsideView.nib /Users/spector/Desktop/SensorToy/FlipsideView.xib0#
+
+CCompileXIB /Users/spector/Desktop/SensorToy/MainView.xib
+s281689799.192914
+e281689799.772581
+r1
+xCompileXIB
+x/Users/spector/Desktop/SensorToy/MainView.xib
+lSLF07#2@23"CompileXIB MainView.xib281689799#281689799#0(0"0(0#0#45"/Users/spector/Desktop/SensorToy/MainView.xib4300934600#510"    cd /Users/spector/Desktop/SensorToy    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/MainView.nib /Users/spector/Desktop/SensorToy/MainView.xib0#
+
+CCompileXIB /Users/spector/Desktop/SensorToy/MainWindow.xib
+r0
+
+CCopyPNGFile /Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/01-refresh.png Graphics/01-refresh.png
+s281676747.386234
+e281676747.450624
+r1
+xCopyPNGFile
+x/Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/01-refresh.png
+xGraphics/01-refresh.png
+lSLF07#2@85"CopyPNGFile build/Debug-iphoneos/SensorToy.app/01-refresh.png Graphics/01-refresh.png281676747#281676747#0(0"0(0#0#56"/Users/spector/Desktop/SensorToy/Graphics/01-refresh.png4300934600#623"    cd /Users/spector/Desktop/SensorToy    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/spector/Desktop/SensorToy/Graphics/01-refresh.png /Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/01-refresh.png0#
+
+CCopyPNGFile /Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/103-map.png Graphics/103-map.png
+s281676747.386953
+e281676747.448002
+r1
+xCopyPNGFile
+x/Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/103-map.png
+xGraphics/103-map.png
+lSLF07#2@79"CopyPNGFile build/Debug-iphoneos/SensorToy.app/103-map.png Graphics/103-map.png281676747#281676747#0(0"0(0#0#53"/Users/spector/Desktop/SensorToy/Graphics/103-map.png4300934600#617"    cd /Users/spector/Desktop/SensorToy    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/spector/Desktop/SensorToy/Graphics/103-map.png /Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/103-map.png0#
+
+CCopyPNGFile /Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/71-compass.png Graphics/71-compass.png
+s281676059.691686
+e281676060.469718
+r1
+xCopyPNGFile
+x/Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/71-compass.png
+xGraphics/71-compass.png
+lSLF07#2@85"CopyPNGFile build/Debug-iphoneos/SensorToy.app/71-compass.png Graphics/71-compass.png281676059#281676060#0(0"0(0#0#56"/Users/spector/Desktop/SensorToy/Graphics/71-compass.png4300934600#623"    cd /Users/spector/Desktop/SensorToy    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/spector/Desktop/SensorToy/Graphics/71-compass.png /Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/71-compass.png0#
+
+CCopyPNGFile /Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/74-location.png Graphics/74-location.png
+s281676059.692431
+e281676060.445212
+r1
+xCopyPNGFile
+x/Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/74-location.png
+xGraphics/74-location.png
+lSLF07#2@87"CopyPNGFile build/Debug-iphoneos/SensorToy.app/74-location.png Graphics/74-location.png281676059#281676060#0(0"0(0#0#57"/Users/spector/Desktop/SensorToy/Graphics/74-location.png4300934600#625"    cd /Users/spector/Desktop/SensorToy    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/spector/Desktop/SensorToy/Graphics/74-location.png /Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/74-location.png0#
+
+CCopyPNGFile /Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/SensorToy.png SensorToy.png
+s281716377.094485
+e281716377.901235
+r1
+xCopyPNGFile
+x/Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/SensorToy.png
+xSensorToy.png
+lSLF07#2@74"CopyPNGFile build/Debug-iphoneos/SensorToy.app/SensorToy.png SensorToy.png281716377#281716377#0(0"0(0#0#46"/Users/spector/Desktop/SensorToy/SensorToy.png4300885448#550"    cd /Users/spector/Desktop/SensorToy    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/spector/Desktop/SensorToy/SensorToy.png /Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/SensorToy.png0#
+
+CCopyPNGFile /Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/map-marker.png Graphics/map-marker.png
+s281676059.693914
+e281676060.455623
+r1
+xCopyPNGFile
+x/Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/map-marker.png
+xGraphics/map-marker.png
+lSLF07#2@85"CopyPNGFile build/Debug-iphoneos/SensorToy.app/map-marker.png Graphics/map-marker.png281676059#281676060#0(0"0(0#0#56"/Users/spector/Desktop/SensorToy/Graphics/map-marker.png4300934600#623"    cd /Users/spector/Desktop/SensorToy    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/spector/Desktop/SensorToy/Graphics/map-marker.png /Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/map-marker.png0#
+
+CCopyPNGFile /Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/tack.png Graphics/tack.png
+s281676060.445401
+e281676060.510438
+r1
+xCopyPNGFile
+x/Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/tack.png
+xGraphics/tack.png
+lSLF07#2@73"CopyPNGFile build/Debug-iphoneos/SensorToy.app/tack.png Graphics/tack.png281676060#281676060#0(0"0(0#0#50"/Users/spector/Desktop/SensorToy/Graphics/tack.png4300934600#611"    cd /Users/spector/Desktop/SensorToy    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/spector/Desktop/SensorToy/Graphics/tack.png /Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/tack.png0#
+
+CCopyPNGFile /Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/tack_small.png Graphics/tack_small.png
+s281676060.455714
+e281676060.512196
+r1
+xCopyPNGFile
+x/Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/tack_small.png
+xGraphics/tack_small.png
+lSLF07#2@85"CopyPNGFile build/Debug-iphoneos/SensorToy.app/tack_small.png Graphics/tack_small.png281676060#281676060#0(0"0(0#0#56"/Users/spector/Desktop/SensorToy/Graphics/tack_small.png4300934600#623"    cd /Users/spector/Desktop/SensorToy    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/spector/Desktop/SensorToy/Graphics/tack_small.png /Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/tack_small.png0#
+
+CCopyPNGFile /Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/target.png Graphics/target.png
+s281676060.469822
+e281676060.531781
+r1
+xCopyPNGFile
+x/Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/target.png
+xGraphics/target.png
+lSLF07#2@77"CopyPNGFile build/Debug-iphoneos/SensorToy.app/target.png Graphics/target.png281676060#281676060#0(0"0(0#0#52"/Users/spector/Desktop/SensorToy/Graphics/target.png4300934600#615"    cd /Users/spector/Desktop/SensorToy    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/spector/Desktop/SensorToy/Graphics/target.png /Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/target.png0#
+
+CCopyPNGFile /Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/target_small.png Graphics/target_small.png
+s281676060.510554
+e281676060.572651
+r1
+xCopyPNGFile
+x/Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/target_small.png
+xGraphics/target_small.png
+lSLF07#2@89"CopyPNGFile build/Debug-iphoneos/SensorToy.app/target_small.png Graphics/target_small.png281676060#281676060#0(0"0(0#0#58"/Users/spector/Desktop/SensorToy/Graphics/target_small.png4300934600#627"    cd /Users/spector/Desktop/SensorToy    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/spector/Desktop/SensorToy/Graphics/target_small.png /Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/target_small.png0#
+
+CCpResource build/Debug-iphoneos/SensorToy.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
+s281656985.284078
+e281656985.360916
+r1
+xCpResource
+xbuild/Debug-iphoneos/SensorToy.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
+lSLF07#2@96"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist281656985#281656985#0(0"0(0#0#91"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist4300934600#548"    cd /Users/spector/Desktop/CoreLocationTest    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist /Users/spector/Desktop/CoreLocationTest/build/Debug-iphoneos/SensorToy.app0#
+
+CGenerateDSYMFile /Users/spector/Desktop/CoreLocationTest/build/Debug-iphoneos/SensorToy.app.dSYM /Users/spector/Desktop/CoreLocationTest/build/Debug-iphoneos/SensorToy.app/SensorToy
+s281672527.867226
+e281672527.888718
+r1
+xGenerateDSYMFile
+x/Users/spector/Desktop/CoreLocationTest/build/Debug-iphoneos/SensorToy.app.dSYM
+x/Users/spector/Desktop/CoreLocationTest/build/Debug-iphoneos/SensorToy.app/SensorToy
+lSLF07#2@101"GenerateDSYMFile build/Debug-iphoneos/SensorToy.app.dSYM build/Debug-iphoneos/SensorToy.app/SensorToy281672527#281672527#0(0"0(0#0#84"/Users/spector/Desktop/CoreLocationTest/build/Debug-iphoneos/SensorToy.app/SensorToy4300934600#433"    cd /Users/spector/Desktop/CoreLocationTest    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/spector/Desktop/CoreLocationTest/build/Debug-iphoneos/SensorToy.app/SensorToy -o /Users/spector/Desktop/CoreLocationTest/build/Debug-iphoneos/SensorToy.app.dSYM0#
+
+CGenerateDSYMFile /Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app.dSYM /Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/SensorToy
+s281689800.333864
+e281689800.353655
+r1
+xGenerateDSYMFile
+x/Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app.dSYM
+x/Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/SensorToy
+lSLF07#2@101"GenerateDSYMFile build/Debug-iphoneos/SensorToy.app.dSYM build/Debug-iphoneos/SensorToy.app/SensorToy281689800#281689800#0(0"0(0#0#77"/Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/SensorToy13229753409208424#412"    cd /Users/spector/Desktop/SensorToy    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/SensorToy -o /Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app.dSYM0#
+
+CLd /Users/spector/Desktop/CoreLocationTest/build/Debug-iphoneos/SensorToy.app/SensorToy normal armv6
+s281672527.790518
+e281672527.866963
+r1
+xLd
+x/Users/spector/Desktop/CoreLocationTest/build/Debug-iphoneos/SensorToy.app/SensorToy
+xnormal
+xarmv6
+old: warning: in /Users/spector/Work/ZeitgeistInfoSysLLC/MacintoshSoftwareDevelopment/iPhoneDevelopment/iPhoneSpecifcLibraries/libisimulate-3.x-noOpenGL/libisimulate.a, file is not of required architecture
+lSLF07#2@89"Link /Users/spector/Desktop/CoreLocationTest/build/Debug-iphoneos/SensorToy.app/SensorToy281672527#281672527#0(205"ld: warning: in /Users/spector/Work/ZeitgeistInfoSysLLC/MacintoshSoftwareDevelopment/iPhoneDevelopment/iPhoneSpecifcLibraries/libisimulate-3.x-noOpenGL/libisimulate.a, file is not of required architecture1(22@191"In /Users/spector/Work/ZeitgeistInfoSysLLC/MacintoshSoftwareDevelopment/iPhoneDevelopment/iPhoneSpecifcLibraries/libisimulate-3.x-noOpenGL/libisimulate.a, file is not of required architecture281672527#0#205#0(6@0"281672527#0#0#0#0#0"0(0#0#0"4300934600#1201"    cd /Users/spector/Desktop/CoreLocationTest    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.2    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -L/Users/spector/Desktop/CoreLocationTest/build/Debug-iphoneos -L/Users/spector/Desktop/CoreLocationTest/../../Work/ZeitgeistInfoSysLLC/MacintoshSoftwareDevelopment/iPhoneDevelopment/iPhoneSpecifcLibraries/libisimulate-3.x-noOpenGL -F/Users/spector/Desktop/CoreLocationTest/build/Debug-iphoneos -filelist /Users/spector/Desktop/CoreLocationTest/build/SensorToy.build/Debug-iphoneos/SensorToy.build/Objects-normal/armv6/SensorToy.LinkFileList -mmacosx-version-min=10.5 -dead_strip -ObjC -miphoneos-version-min=3.1.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreLocation -framework MapKit -lisimulate -o /Users/spector/Desktop/CoreLocationTest/build/Debug-iphoneos/SensorToy.app/SensorToy0#
+
+CLd /Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/SensorToy normal armv6
+s281716379.366645
+e281716379.724278
+r0
+xLd
+x/Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/SensorToy
+xnormal
+xarmv6
+old: library not found for -lisimulate
+ocollect2: ld returned 1 exit status
+lSLF07#2@82"Link /Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/SensorToy281716379#281716379#0(171"ld: library not found for -lisimulatecollect2: ld returned 1 exit statusCommand /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 failed with exit code 12(13@33"Library not found for -lisimulate281716379#0#38#0(6@0"281716379#0#0#0#0#0"0(4@96"Command /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 failed with exit code 1281716379#18446744073709551615#0#0(1@0"0(0#0#0"4300885448#1128"    cd /Users/spector/Desktop/SensorToy    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.2    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -L/Users/spector/Desktop/SensorToy/build/Debug-iphoneos -L/Users/spector/Desktop/SensorToy/../../Work/ZeitgeistInfoSysLLC/MacintoshSoftwareDevelopment/iPhoneDevelopment/iPhoneSpecifcLibraries/libisimulate-3.x-noOpenGL -F/Users/spector/Desktop/SensorToy/build/Debug-iphoneos -filelist /Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/Objects-normal/armv6/SensorToy.LinkFileList -mmacosx-version-min=10.5 -dead_strip -ObjC -miphoneos-version-min=3.1.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreLocation -framework MapKit -lisimulate -framework SystemConfiguration -o /Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/SensorToy1#
+
+CProcessInfoPlistFile /Users/spector/Desktop/CoreLocationTest/build/Debug-iphoneos/SensorToy.app/Info.plist SensorToy-Info.plist
+s281656985.286016
+e281656985.309553
+r1
+xProcessInfoPlistFile
+x/Users/spector/Desktop/CoreLocationTest/build/Debug-iphoneos/SensorToy.app/Info.plist
+xSensorToy-Info.plist
+lSLF07#2@28"Process SensorToy-Info.plist281656985#281656985#0(0"0(0#0#60"/Users/spector/Desktop/CoreLocationTest/SensorToy-Info.plist4300934600#636"    cd /Users/spector/Desktop/CoreLocationTest    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility SensorToy-Info.plist -genpkginfo /Users/spector/Desktop/CoreLocationTest/build/Debug-iphoneos/SensorToy.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/spector/Desktop/CoreLocationTest/build/Debug-iphoneos/SensorToy.app/ResourceRules.plist -o /Users/spector/Desktop/CoreLocationTest/build/Debug-iphoneos/SensorToy.app/Info.plist0#
+
+CProcessInfoPlistFile /Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/Info.plist SensorToy-Info.plist
+s281716377.045680
+e281716377.093788
+r1
+xProcessInfoPlistFile
+x/Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/Info.plist
+xSensorToy-Info.plist
+lSLF07#2@28"Process SensorToy-Info.plist281716377#281716377#0(0"0(0#0#53"/Users/spector/Desktop/SensorToy/SensorToy-Info.plist28429445101453416#546"    cd /Users/spector/Desktop/SensorToy    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility SensorToy-Info.plist -genpkginfo /Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/ResourceRules.plist -o /Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/Info.plist0#
+
+CProcessPCH /var/folders/Ln/LnL2rSakHWmIaxW99THfd++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SensorToy_Prefix-djoyqcuntwzmwkdllhfnsbvzqthr/SensorToy_Prefix.pch.gch SensorToy_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s281674658.591156
+e281674659.120328
+r1
+xProcessPCH
+x/var/folders/Ln/LnL2rSakHWmIaxW99THfd++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SensorToy_Prefix-djoyqcuntwzmwkdllhfnsbvzqthr/SensorToy_Prefix.pch.gch
+xSensorToy_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile SensorToy_Prefix.pch281674658#281674659#0(0"0(0#0#53"/Users/spector/Desktop/SensorToy/SensorToy_Prefix.pch7301231593784697856#1666"    cd /Users/spector/Desktop/SensorToy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-generated-files.hmap -I/Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-own-target-headers.hmap -I/Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-all-target-headers.hmap -iquote /Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-project-headers.hmap -F/Users/spector/Desktop/SensorToy/build/Debug-iphoneos -I/Users/spector/Desktop/SensorToy/build/Debug-iphoneos/include -I/Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/DerivedSources/armv6 -I/Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/DerivedSources -c /Users/spector/Desktop/SensorToy/SensorToy_Prefix.pch -o /var/folders/Ln/LnL2rSakHWmIaxW99THfd++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SensorToy_Prefix-djoyqcuntwzmwkdllhfnsbvzqthr/SensorToy_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Ln/LnL2rSakHWmIaxW99THfd++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SensorToy_Prefix-fqukfgiertkuszdesfgdwdykdurx/SensorToy_Prefix.pch.gch SensorToy_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s281656985.930135
+e281656986.685708
+r1
+xProcessPCH
+x/var/folders/Ln/LnL2rSakHWmIaxW99THfd++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SensorToy_Prefix-fqukfgiertkuszdesfgdwdykdurx/SensorToy_Prefix.pch.gch
+xSensorToy_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile SensorToy_Prefix.pch281656985#281656986#0(0"0(0#0#60"/Users/spector/Desktop/CoreLocationTest/SensorToy_Prefix.pch4300934600#1736"    cd /Users/spector/Desktop/CoreLocationTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/spector/Desktop/CoreLocationTest/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-generated-files.hmap -I/Users/spector/Desktop/CoreLocationTest/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-own-target-headers.hmap -I/Users/spector/Desktop/CoreLocationTest/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-all-target-headers.hmap -iquote /Users/spector/Desktop/CoreLocationTest/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-project-headers.hmap -F/Users/spector/Desktop/CoreLocationTest/build/Debug-iphoneos -I/Users/spector/Desktop/CoreLocationTest/build/Debug-iphoneos/include -I/Users/spector/Desktop/CoreLocationTest/build/SensorToy.build/Debug-iphoneos/SensorToy.build/DerivedSources/armv6 -I/Users/spector/Desktop/CoreLocationTest/build/SensorToy.build/Debug-iphoneos/SensorToy.build/DerivedSources -c /Users/spector/Desktop/CoreLocationTest/SensorToy_Prefix.pch -o /var/folders/Ln/LnL2rSakHWmIaxW99THfd++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SensorToy_Prefix-fqukfgiertkuszdesfgdwdykdurx/SensorToy_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/ko/ko7HD0qPFWGFCjTB1d7Pxk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SensorToy_Prefix-djoyqcuntwzmwkdllhfnsbvzqthr/SensorToy_Prefix.pch.gch SensorToy_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s281716377.901466
+e281716378.835272
+r1
+xProcessPCH
+x/var/folders/ko/ko7HD0qPFWGFCjTB1d7Pxk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SensorToy_Prefix-djoyqcuntwzmwkdllhfnsbvzqthr/SensorToy_Prefix.pch.gch
+xSensorToy_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile SensorToy_Prefix.pch281716377#281716378#0(0"0(0#0#53"/Users/spector/Desktop/SensorToy/SensorToy_Prefix.pch4300885448#1604"    cd /Users/spector/Desktop/SensorToy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-generated-files.hmap -I/Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-own-target-headers.hmap -I/Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-all-target-headers.hmap -iquote /Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy-project-headers.hmap -F/Users/spector/Desktop/SensorToy/build/Debug-iphoneos -I/Users/spector/Desktop/SensorToy/build/Debug-iphoneos/include -I/Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/DerivedSources/armv6 -I/Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/DerivedSources -c /Users/spector/Desktop/SensorToy/SensorToy_Prefix.pch -o /var/folders/ko/ko7HD0qPFWGFCjTB1d7Pxk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/SensorToy_Prefix-djoyqcuntwzmwkdllhfnsbvzqthr/SensorToy_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/spector/Library/MobileDevice/Provisioning Profiles/B47C3F3E-36BC-4960-B162-16E6D4D5E2D1.mobileprovision" /Users/spector/Desktop/CoreLocationTest/build/Debug-iphoneos/SensorToy.app/embedded.mobileprovision
+s281672151.678206
+e281672151.700331
+r1
+xProcessProductPackaging
+x/Users/spector/Library/MobileDevice/Provisioning Profiles/B47C3F3E-36BC-4960-B162-16E6D4D5E2D1.mobileprovision
+x/Users/spector/Desktop/CoreLocationTest/build/Debug-iphoneos/SensorToy.app/embedded.mobileprovision
+lSLF07#2@196"ProcessProductPackaging "/Users/spector/Library/MobileDevice/Provisioning Profiles/B47C3F3E-36BC-4960-B162-16E6D4D5E2D1.mobileprovision" build/Debug-iphoneos/SensorToy.app/embedded.mobileprovision281672151#281672151#0(0"0(0#0#99"/Users/spector/Desktop/CoreLocationTest/build/Debug-iphoneos/SensorToy.app/embedded.mobileprovision4300934600#491"    cd /Users/spector/Desktop/CoreLocationTest    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    <com.apple.tools.product-pkg-utility> "/Users/spector/Library/MobileDevice/Provisioning Profiles/B47C3F3E-36BC-4960-B162-16E6D4D5E2D1.mobileprovision" -o /Users/spector/Desktop/CoreLocationTest/build/Debug-iphoneos/SensorToy.app/embedded.mobileprovision0#
+
+CProcessProductPackaging "/Users/spector/Library/MobileDevice/Provisioning Profiles/B47C3F3E-36BC-4960-B162-16E6D4D5E2D1.mobileprovision" /Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app/embedded.mobileprovision
+r0
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist /Users/spector/Desktop/CoreLocationTest/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy.xcent
+s281656987.721521
+e281656987.735223
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist
+x/Users/spector/Desktop/CoreLocationTest/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy.xcent
+lSLF07#2@183"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy.xcent281656987#281656987#0(0"0(0#0#108"/Users/spector/Desktop/CoreLocationTest/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy.xcent4300934600#504"    cd /Users/spector/Desktop/CoreLocationTest    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/spector/Desktop/CoreLocationTest/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy.xcent0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist /Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy.xcent
+s281716379.724696
+e281716379.748012
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist
+x/Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy.xcent
+lSLF07#2@183"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy.xcent281716379#281716379#0(0"0(0#0#101"/Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy.xcent28147961534414964#428"    cd /Users/spector/Desktop/SensorToy    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/spector/Desktop/SensorToy/build/SensorToy.build/Debug-iphoneos/SensorToy.build/SensorToy.xcent0#
+
+CTouch /Users/spector/Desktop/CoreLocationTest/build/Debug-iphoneos/SensorToy.app
+s281672527.888944
+e281672527.892631
+r1
+xTouch
+x/Users/spector/Desktop/CoreLocationTest/build/Debug-iphoneos/SensorToy.app
+lSLF07#2@80"Touch /Users/spector/Desktop/CoreLocationTest/build/Debug-iphoneos/SensorToy.app281672527#281672527#0(0"0(0#0#0"4300934600#330"    cd /Users/spector/Desktop/CoreLocationTest    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/spector/Desktop/CoreLocationTest/build/Debug-iphoneos/SensorToy.app0#
+
+CTouch /Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app
+s281689800.353811
+e281689800.357185
+r1
+xTouch
+x/Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app
+lSLF07#2@73"Touch /Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app281689800#281689800#0(0"0(0#0#0"4300934600#316"    cd /Users/spector/Desktop/SensorToy    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/spector/Desktop/SensorToy/build/Debug-iphoneos/SensorToy.app0#
+
