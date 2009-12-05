@@ -1,8 +1,9 @@
 # xcode stuff
 build/*
-*.pbxuser
-*.perspectivev3
+*xcodeproj/*.pbxuser
+*xcodeproj/*.perspectivev3
 *.mode1v3
 .DS_Store
 Static analysis
 *.xcodeproj/spector*
+*~
