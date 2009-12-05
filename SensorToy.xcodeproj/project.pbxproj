@@ -30,8 +30,8 @@
 		8B5B36C310CA0B8E0031C928 /* 103-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B5B36C110CA0B8E0031C928 /* 103-map.png */; };
 		8B7BC1D310C98CBC0006C6B9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B7BC1D210C98CBC0006C6B9 /* CoreLocation.framework */; };
 		8B7BC1E110C98CEC0006C6B9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B7BC1E010C98CEC0006C6B9 /* MapKit.framework */; };
-		8B7BC26F10C99DBE0006C6B9 /* libisimulate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B7BC26E10C99DBE0006C6B9 /* libisimulate.a */; };
 		8B88F96310CAA67800957EF7 /* SensorToy.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B88F96210CAA67800957EF7 /* SensorToy.png */; };
+		8B88F97B10CAB08C00957EF7 /* libisimulate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B88F97A10CAB08C00957EF7 /* libisimulate.a */; };
 		8BC2888D10CA0E020081FC87 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC2888C10CA0E020081FC87 /* SystemConfiguration.framework */; };
 		8BC288A210CA0FD60081FC87 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC288A110CA0FD60081FC87 /* Reachability.m */; };
 /* End PBXBuildFile section */
@@ -67,8 +67,8 @@
 		8B5B36C110CA0B8E0031C928 /* 103-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "103-map.png"; sourceTree = "<group>"; };
 		8B7BC1D210C98CBC0006C6B9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		8B7BC1E010C98CEC0006C6B9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		8B7BC26E10C99DBE0006C6B9 /* libisimulate.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libisimulate.a; path = "../../Work/ZeitgeistInfoSysLLC/MacintoshSoftwareDevelopment/iPhoneDevelopment/iPhoneSpecifcLibraries/libisimulate-3.x-noOpenGL/libisimulate.a"; sourceTree = SOURCE_ROOT; };
 		8B88F96210CAA67800957EF7 /* SensorToy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SensorToy.png; sourceTree = "<group>"; };
+		8B88F97A10CAB08C00957EF7 /* libisimulate.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libisimulate.a; sourceTree = "<group>"; };
 		8BC2888C10CA0E020081FC87 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		8BC288A010CA0FD60081FC87 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		8BC288A110CA0FD60081FC87 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
@@ -85,8 +85,8 @@
 				288765590DF743DE002DB57D /* CoreGraphics.framework in Frameworks */,
 				8B7BC1D310C98CBC0006C6B9 /* CoreLocation.framework in Frameworks */,
 				8B7BC1E110C98CEC0006C6B9 /* MapKit.framework in Frameworks */,
-				8B7BC26F10C99DBE0006C6B9 /* libisimulate.a in Frameworks */,
 				8BC2888D10CA0E020081FC87 /* SystemConfiguration.framework in Frameworks */,
+				8B88F97B10CAB08C00957EF7 /* libisimulate.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,7 +173,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8B7BC26E10C99DBE0006C6B9 /* libisimulate.a */,
+				8B88F97A10CAB08C00957EF7 /* libisimulate.a */,
 				8B7BC1E010C98CEC0006C6B9 /* MapKit.framework */,
 				8B7BC1D210C98CBC0006C6B9 /* CoreLocation.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
@@ -310,6 +310,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../Work/ZeitgeistInfoSysLLC/MacintoshSoftwareDevelopment/iPhoneDevelopment/iPhoneSpecifcLibraries/libisimulate-3.x-noOpenGL\"",
+					"\"$(SRCROOT)\"",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = SensorToy;
@@ -330,6 +331,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../Work/ZeitgeistInfoSysLLC/MacintoshSoftwareDevelopment/iPhoneDevelopment/iPhoneSpecifcLibraries/libisimulate-3.x-noOpenGL\"",
+					"\"$(SRCROOT)\"",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = SensorToy;

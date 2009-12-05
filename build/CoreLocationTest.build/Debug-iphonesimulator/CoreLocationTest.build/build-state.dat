@@ -1,408 +1,0 @@
-TCoreLocationTest
-v7
-r0
-t281656434.862737
-cCheck dependencies
-cProcessInfoPlistFile /Users/spector/Desktop/CoreLocationTest/build/Debug-iphonesimulator/CoreLocationTest.app/Info.plist CoreLocationTest-Info.plist
-cCompileXIB /Users/spector/Desktop/CoreLocationTest/FlipsideView.xib
-cCompileXIB /Users/spector/Desktop/CoreLocationTest/MainView.xib
-cCompileXIB /Users/spector/Desktop/CoreLocationTest/MainWindow.xib
-cProcessPCH /var/folders/Ln/LnL2rSakHWmIaxW99THfd++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreLocationTest_Prefix-bbtxauhopbizlcdfrojgdjeznsjj/CoreLocationTest_Prefix.pch.gch CoreLocationTest_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/Objects-normal/i386/main.o /Users/spector/Desktop/CoreLocationTest/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/Objects-normal/i386/CoreLocationTestAppDelegate.o /Users/spector/Desktop/CoreLocationTest/Classes/CoreLocationTestAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/Objects-normal/i386/FlipsideView.o /Users/spector/Desktop/CoreLocationTest/Classes/FlipsideView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/Objects-normal/i386/MainView.o /Users/spector/Desktop/CoreLocationTest/Classes/MainView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/Objects-normal/i386/MainViewController.o /Users/spector/Desktop/CoreLocationTest/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/Objects-normal/i386/FlipsideViewController.o /Users/spector/Desktop/CoreLocationTest/Classes/FlipsideViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/spector/Desktop/CoreLocationTest/build/Debug-iphonesimulator/CoreLocationTest.app/CoreLocationTest normal i386
-cGenerateDSYMFile /Users/spector/Desktop/CoreLocationTest/build/Debug-iphonesimulator/CoreLocationTest.app.dSYM /Users/spector/Desktop/CoreLocationTest/build/Debug-iphonesimulator/CoreLocationTest.app/CoreLocationTest
-cTouch /Users/spector/Desktop/CoreLocationTest/build/Debug-iphonesimulator/CoreLocationTest.app
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk
-c000000004ACE43B700000000000000EE
-t1255031735
-s238
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004ABDC853000000000026EE30
-t1253951571
-s2551344
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
-c000000004ABDEE58000000000004AFE0
-t1253961304
-s307168
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
-c000000004ABDEE5400000000000001AF
-t1253961300
-s431
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004ABDC952000000000027E880
-t1253951826
-s2615424
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004ABDC93F0000000000001355
-t1253951807
-s4949
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MKAnnotation.h
-c000000004ABDEF7400000000000001D5
-t1253961588
-s469
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MKReverseGeocoder.h
-c000000004ABDEF750000000000000623
-t1253961589
-s1571
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
-c000000004ABDEF74000000000000017D
-t1253961588
-s381
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/MapKit.framework/MapKit
-c000000004ABDEF82000000000010EB60
-t1253961602
-s1108832
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004ABDEE1D0000000000000788
-t1253961245
-s1928
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004ABDEEE200000000016721E0
-t1253961442
-s23536096
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/Availability.h
-c000000004ABDCA4700000000000019F9
-t1253952071
-s6649
-
-N/Users/spector/Desktop/CoreLocationTest/../../Work/ZeitgeistInfoSysLLC/MacintoshSoftwareDevelopment/iPhoneDevelopment/iPhoneSpecifcLibraries/libisimulate-3.x-noOpenGL/libisimulate.a
-c000000004AC1FECE000000000001A758
-t1254227662
-s108376
-
-N/Users/spector/Desktop/CoreLocationTest/Classes/CoreLocationTestAppDelegate.h
-c000000004B187DF300000000000001E7
-t1259896307
-s487
-
-N/Users/spector/Desktop/CoreLocationTest/Classes/CoreLocationTestAppDelegate.m
-c000000004B187DF3000000000000035B
-t1259896307
-s859
-i"CoreLocationTestAppDelegate.h"
-i"MainViewController.h"
-
-N/Users/spector/Desktop/CoreLocationTest/Classes/FlipsideView.h
-c000000004B187DF300000000000000D2
-t1259896307
-s210
-
-N/Users/spector/Desktop/CoreLocationTest/Classes/FlipsideView.m
-c000000004B187DF300000000000001D2
-t1259896307
-s466
-i"FlipsideView.h"
-
-N/Users/spector/Desktop/CoreLocationTest/Classes/FlipsideViewController.h
-c000000004B187DF30000000000000227
-t1259896307
-s551
-
-N/Users/spector/Desktop/CoreLocationTest/Classes/FlipsideViewController.m
-c000000004B187DF30000000000000466
-t1259896307
-s1126
-i"FlipsideViewController.h"
-
-N/Users/spector/Desktop/CoreLocationTest/Classes/MainView.h
-c000000004B1885BA00000000000000E1
-t1259898298
-s225
-i<UIKit/UIKit.h>
-
-N/Users/spector/Desktop/CoreLocationTest/Classes/MainView.m
-c000000004B1885FC00000000000001C6
-t1259898364
-s454
-i"MainView.h"
-
-N/Users/spector/Desktop/CoreLocationTest/Classes/MainViewController.h
-c000000004B19734A000000000000071B
-t1259959114
-s1819
-i"FlipsideViewController.h"
-i<MapKit/MapKit.h>
-i<MapKit/MKAnnotation.h>
-i<MapKit/MKReverseGeocoder.h>
-i<CoreLocation/CoreLocation.h>
-
-N/Users/spector/Desktop/CoreLocationTest/Classes/MainViewController.m
-c000000004B1985E20000000000001BB3
-t1259963874
-s7091
-i"MainViewController.h"
-i"MainView.h"
-
-N/Users/spector/Desktop/CoreLocationTest/CoreLocationTest_Prefix.pch
-c000000004B187DF30000000000000152
-t1259896307
-s338
-i<Availability.h>
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/spector/Desktop/CoreLocationTest/FlipsideView.xib
-c000000004B187DF3000000000000268D
-t1259896307
-s9869
-
-N/Users/spector/Desktop/CoreLocationTest/MainView.xib
-c000000004B198134000000000000B65A
-t1259962676
-s46682
-
-N/Users/spector/Desktop/CoreLocationTest/MainWindow.xib
-c000000004B187DF30000000000001E34
-t1259896307
-s7732
-
-N/Users/spector/Desktop/CoreLocationTest/build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/Objects-normal/i386/CoreLocationTest.LinkFileList
-c000000004B187F350000000000000391
-t1259896629
-s913
-
-N/Users/spector/Desktop/CoreLocationTest/build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/Objects-normal/i386/CoreLocationTestAppDelegate.o
-t1259959179
-s41472
-
-N/Users/spector/Desktop/CoreLocationTest/build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/Objects-normal/i386/FlipsideView.o
-t1259896631
-s9884
-
-N/Users/spector/Desktop/CoreLocationTest/build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/Objects-normal/i386/FlipsideViewController.o
-t1259896631
-s32240
-
-N/Users/spector/Desktop/CoreLocationTest/build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/Objects-normal/i386/MainView.o
-t1259898741
-s9832
-
-N/Users/spector/Desktop/CoreLocationTest/build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/Objects-normal/i386/MainViewController.o
-t1259963634
-s54396
-
-N/Users/spector/Desktop/CoreLocationTest/build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/Objects-normal/i386/main.o
-t1259896631
-s5960
-
-N/Users/spector/Desktop/CoreLocationTest/build/Debug-iphonesimulator/CoreLocationTest.app
-t1259963634
-s272
-
-N/Users/spector/Desktop/CoreLocationTest/build/Debug-iphonesimulator/CoreLocationTest.app.dSYM
-t1259963634
-s102
-
-N/Users/spector/Desktop/CoreLocationTest/build/Debug-iphonesimulator/CoreLocationTest.app/CoreLocationTest
-t1259963634
-s102244
-
-N/Users/spector/Desktop/CoreLocationTest/build/Debug-iphonesimulator/CoreLocationTest.app/FlipsideView.nib
-t1259896629
-s1802
-
-N/Users/spector/Desktop/CoreLocationTest/build/Debug-iphonesimulator/CoreLocationTest.app/Info.plist
-t1259896629
-s606
-
-N/Users/spector/Desktop/CoreLocationTest/build/Debug-iphonesimulator/CoreLocationTest.app/MainView.nib
-t1259962702
-s7159
-
-N/Users/spector/Desktop/CoreLocationTest/build/Debug-iphonesimulator/CoreLocationTest.app/MainWindow.nib
-t1259896629
-s1388
-
-N/Users/spector/Desktop/CoreLocationTest/build/Debug-iphonesimulator/CoreLocationTest.app/PkgInfo
-t1259896629
-s8
-
-N/Users/spector/Desktop/CoreLocationTest/main.m
-c000000004B187DF30000000000000182
-t1259896307
-s386
-i<UIKit/UIKit.h>
-
-N/var/folders/Ln/LnL2rSakHWmIaxW99THfd++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreLocationTest_Prefix-bbtxauhopbizlcdfrojgdjeznsjj/CoreLocationTest_Prefix.pch.gch
-t1259896631
-s13034960
-
-NCoreLocationTest-Info.plist
-c000000004B187DF3000000000000038D
-t1259896307
-s909
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies281656434#281656434#0(0"0(0#1#0"4300934600#0"0#
-
-CCompileC build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/Objects-normal/i386/CoreLocationTestAppDelegate.o /Users/spector/Desktop/CoreLocationTest/Classes/CoreLocationTestAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s281651979.423438
-e281651979.501466
-r1
-xCompileC
-xbuild/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/Objects-normal/i386/CoreLocationTestAppDelegate.o
-x/Users/spector/Desktop/CoreLocationTest/Classes/CoreLocationTestAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@85"Compile /Users/spector/Desktop/CoreLocationTest/Classes/CoreLocationTestAppDelegate.m281651979#281651979#0(0"0(0#0#77"/Users/spector/Desktop/CoreLocationTest/Classes/CoreLocationTestAppDelegate.m4300934600#2166"    cd /Users/spector/Desktop/CoreLocationTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/spector/Desktop/CoreLocationTest/build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/CoreLocationTest-generated-files.hmap -I/Users/spector/Desktop/CoreLocationTest/build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/CoreLocationTest-own-target-headers.hmap -I/Users/spector/Desktop/CoreLocationTest/build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/CoreLocationTest-all-target-headers.hmap -iquote /Users/spector/Desktop/CoreLocationTest/build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/CoreLocationTest-project-headers.hmap -F/Users/spector/Desktop/CoreLocationTest/build/Debug-iphonesimulator -I/Users/spector/Desktop/CoreLocationTest/build/Debug-iphonesimulator/include -I/Users/spector/Desktop/CoreLocationTest/build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/DerivedSources/i386 -I/Users/spector/Desktop/CoreLocationTest/build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/DerivedSources -include /var/folders/Ln/LnL2rSakHWmIaxW99THfd++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreLocationTest_Prefix-bbtxauhopbizlcdfrojgdjeznsjj/CoreLocationTest_Prefix.pch -c /Users/spector/Desktop/CoreLocationTest/Classes/CoreLocationTestAppDelegate.m -o /Users/spector/Desktop/CoreLocationTest/build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/Objects-normal/i386/CoreLocationTestAppDelegate.o0#
-
-CCompileC build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/Objects-normal/i386/FlipsideView.o /Users/spector/Desktop/CoreLocationTest/Classes/FlipsideView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s281589431.288697
-e281589431.705651
-r1
-xCompileC
-xbuild/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/Objects-normal/i386/FlipsideView.o
-x/Users/spector/Desktop/CoreLocationTest/Classes/FlipsideView.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@70"Compile /Users/spector/Desktop/CoreLocationTest/Classes/FlipsideView.m281589431#281589431#0(0"0(0#0#62"/Users/spector/Desktop/CoreLocationTest/Classes/FlipsideView.m4300934600#2136"    cd /Users/spector/Desktop/CoreLocationTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/spector/Desktop/CoreLocationTest/build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/CoreLocationTest-generated-files.hmap -I/Users/spector/Desktop/CoreLocationTest/build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/CoreLocationTest-own-target-headers.hmap -I/Users/spector/Desktop/CoreLocationTest/build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/CoreLocationTest-all-target-headers.hmap -iquote /Users/spector/Desktop/CoreLocationTest/build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/CoreLocationTest-project-headers.hmap -F/Users/spector/Desktop/CoreLocationTest/build/Debug-iphonesimulator -I/Users/spector/Desktop/CoreLocationTest/build/Debug-iphonesimulator/include -I/Users/spector/Desktop/CoreLocationTest/build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/DerivedSources/i386 -I/Users/spector/Desktop/CoreLocationTest/build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/DerivedSources -include /var/folders/Ln/LnL2rSakHWmIaxW99THfd++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreLocationTest_Prefix-bbtxauhopbizlcdfrojgdjeznsjj/CoreLocationTest_Prefix.pch -c /Users/spector/Desktop/CoreLocationTest/Classes/FlipsideView.m -o /Users/spector/Desktop/CoreLocationTest/build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/Objects-normal/i386/FlipsideView.o0#
-
-CCompileC build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/Objects-normal/i386/FlipsideViewController.o /Users/spector/Desktop/CoreLocationTest/Classes/FlipsideViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s281589431.706033
-e281589431.848342
-r1
-xCompileC
-xbuild/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/Objects-normal/i386/FlipsideViewController.o
-x/Users/spector/Desktop/CoreLocationTest/Classes/FlipsideViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@80"Compile /Users/spector/Desktop/CoreLocationTest/Classes/FlipsideViewController.m281589431#281589431#0(0"0(0#0#72"/Users/spector/Desktop/CoreLocationTest/Classes/FlipsideViewController.m4300934600#2156"    cd /Users/spector/Desktop/CoreLocationTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/spector/Desktop/CoreLocationTest/build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/CoreLocationTest-generated-files.hmap -I/Users/spector/Desktop/CoreLocationTest/build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/CoreLocationTest-own-target-headers.hmap -I/Users/spector/Desktop/CoreLocationTest/build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/CoreLocationTest-all-target-headers.hmap -iquote /Users/spector/Desktop/CoreLocationTest/build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/CoreLocationTest-project-headers.hmap -F/Users/spector/Desktop/CoreLocationTest/build/Debug-iphonesimulator -I/Users/spector/Desktop/CoreLocationTest/build/Debug-iphonesimulator/include -I/Users/spector/Desktop/CoreLocationTest/build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/DerivedSources/i386 -I/Users/spector/Desktop/CoreLocationTest/build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/DerivedSources -include /var/folders/Ln/LnL2rSakHWmIaxW99THfd++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreLocationTest_Prefix-bbtxauhopbizlcdfrojgdjeznsjj/CoreLocationTest_Prefix.pch -c /Users/spector/Desktop/CoreLocationTest/Classes/FlipsideViewController.m -o /Users/spector/Desktop/CoreLocationTest/build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/Objects-normal/i386/FlipsideViewController.o0#
-
-CCompileC build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/Objects-normal/i386/MainView.o /Users/spector/Desktop/CoreLocationTest/Classes/MainView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s281591541.431606
-e281591541.542460
-r1
-xCompileC
-xbuild/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/Objects-normal/i386/MainView.o
-x/Users/spector/Desktop/CoreLocationTest/Classes/MainView.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@66"Compile /Users/spector/Desktop/CoreLocationTest/Classes/MainView.m281591541#281591541#0(0"0(0#0#58"/Users/spector/Desktop/CoreLocationTest/Classes/MainView.m4300934600#2128"    cd /Users/spector/Desktop/CoreLocationTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/spector/Desktop/CoreLocationTest/build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/CoreLocationTest-generated-files.hmap -I/Users/spector/Desktop/CoreLocationTest/build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/CoreLocationTest-own-target-headers.hmap -I/Users/spector/Desktop/CoreLocationTest/build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/CoreLocationTest-all-target-headers.hmap -iquote /Users/spector/Desktop/CoreLocationTest/build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/CoreLocationTest-project-headers.hmap -F/Users/spector/Desktop/CoreLocationTest/build/Debug-iphonesimulator -I/Users/spector/Desktop/CoreLocationTest/build/Debug-iphonesimulator/include -I/Users/spector/Desktop/CoreLocationTest/build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/DerivedSources/i386 -I/Users/spector/Desktop/CoreLocationTest/build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/DerivedSources -include /var/folders/Ln/LnL2rSakHWmIaxW99THfd++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreLocationTest_Prefix-bbtxauhopbizlcdfrojgdjeznsjj/CoreLocationTest_Prefix.pch -c /Users/spector/Desktop/CoreLocationTest/Classes/MainView.m -o /Users/spector/Desktop/CoreLocationTest/build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/Objects-normal/i386/MainView.o0#
-
-CCompileC build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/Objects-normal/i386/MainViewController.o /Users/spector/Desktop/CoreLocationTest/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s281656434.624268
-e281656434.787537
-r1
-xCompileC
-xbuild/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/Objects-normal/i386/MainViewController.o
-x/Users/spector/Desktop/CoreLocationTest/Classes/MainViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@76"Compile /Users/spector/Desktop/CoreLocationTest/Classes/MainViewController.m281656434#281656434#0(0"0(0#0#68"/Users/spector/Desktop/CoreLocationTest/Classes/MainViewController.m4300934600#2148"    cd /Users/spector/Desktop/CoreLocationTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/spector/Desktop/CoreLocationTest/build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/CoreLocationTest-generated-files.hmap -I/Users/spector/Desktop/CoreLocationTest/build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/CoreLocationTest-own-target-headers.hmap -I/Users/spector/Desktop/CoreLocationTest/build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/CoreLocationTest-all-target-headers.hmap -iquote /Users/spector/Desktop/CoreLocationTest/build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/CoreLocationTest-project-headers.hmap -F/Users/spector/Desktop/CoreLocationTest/build/Debug-iphonesimulator -I/Users/spector/Desktop/CoreLocationTest/build/Debug-iphonesimulator/include -I/Users/spector/Desktop/CoreLocationTest/build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/DerivedSources/i386 -I/Users/spector/Desktop/CoreLocationTest/build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/DerivedSources -include /var/folders/Ln/LnL2rSakHWmIaxW99THfd++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreLocationTest_Prefix-bbtxauhopbizlcdfrojgdjeznsjj/CoreLocationTest_Prefix.pch -c /Users/spector/Desktop/CoreLocationTest/Classes/MainViewController.m -o /Users/spector/Desktop/CoreLocationTest/build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/Objects-normal/i386/MainViewController.o0#
-
-CCompileC build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/Objects-normal/i386/main.o /Users/spector/Desktop/CoreLocationTest/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s281589431.285925
-e281589431.705466
-r1
-xCompileC
-xbuild/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/Objects-normal/i386/main.o
-x/Users/spector/Desktop/CoreLocationTest/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@54"Compile /Users/spector/Desktop/CoreLocationTest/main.m281589431#281589431#0(0"0(0#0#46"/Users/spector/Desktop/CoreLocationTest/main.m4300934600#2112"    cd /Users/spector/Desktop/CoreLocationTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/spector/Desktop/CoreLocationTest/build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/CoreLocationTest-generated-files.hmap -I/Users/spector/Desktop/CoreLocationTest/build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/CoreLocationTest-own-target-headers.hmap -I/Users/spector/Desktop/CoreLocationTest/build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/CoreLocationTest-all-target-headers.hmap -iquote /Users/spector/Desktop/CoreLocationTest/build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/CoreLocationTest-project-headers.hmap -F/Users/spector/Desktop/CoreLocationTest/build/Debug-iphonesimulator -I/Users/spector/Desktop/CoreLocationTest/build/Debug-iphonesimulator/include -I/Users/spector/Desktop/CoreLocationTest/build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/DerivedSources/i386 -I/Users/spector/Desktop/CoreLocationTest/build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/DerivedSources -include /var/folders/Ln/LnL2rSakHWmIaxW99THfd++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreLocationTest_Prefix-bbtxauhopbizlcdfrojgdjeznsjj/CoreLocationTest_Prefix.pch -c /Users/spector/Desktop/CoreLocationTest/main.m -o /Users/spector/Desktop/CoreLocationTest/build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/Objects-normal/i386/main.o0#
-
-CCompileXIB /Users/spector/Desktop/CoreLocationTest/FlipsideView.xib
-s281589429.184485
-e281589429.826599
-r1
-xCompileXIB
-x/Users/spector/Desktop/CoreLocationTest/FlipsideView.xib
-lSLF07#2@27"CompileXIB FlipsideView.xib281589429#281589429#0(0"0(0#0#56"/Users/spector/Desktop/CoreLocationTest/FlipsideView.xib4300934600#560"    cd /Users/spector/Desktop/CoreLocationTest    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/spector/Desktop/CoreLocationTest/build/Debug-iphonesimulator/CoreLocationTest.app/FlipsideView.nib /Users/spector/Desktop/CoreLocationTest/FlipsideView.xib0#
-
-CCompileXIB /Users/spector/Desktop/CoreLocationTest/MainView.xib
-s281655501.965919
-e281655502.722779
-r1
-xCompileXIB
-x/Users/spector/Desktop/CoreLocationTest/MainView.xib
-lSLF07#2@23"CompileXIB MainView.xib281655501#281655502#0(0"0(0#0#52"/Users/spector/Desktop/CoreLocationTest/MainView.xib4300934600#552"    cd /Users/spector/Desktop/CoreLocationTest    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/spector/Desktop/CoreLocationTest/build/Debug-iphonesimulator/CoreLocationTest.app/MainView.nib /Users/spector/Desktop/CoreLocationTest/MainView.xib0#
-
-CCompileXIB /Users/spector/Desktop/CoreLocationTest/MainWindow.xib
-s281589429.193813
-e281589429.776251
-r1
-xCompileXIB
-x/Users/spector/Desktop/CoreLocationTest/MainWindow.xib
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-lSLF07#2@25"CompileXIB MainWindow.xib281589429#281589429#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#54"/Users/spector/Desktop/CoreLocationTest/MainWindow.xib4300934600#556"    cd /Users/spector/Desktop/CoreLocationTest    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/spector/Desktop/CoreLocationTest/build/Debug-iphonesimulator/CoreLocationTest.app/MainWindow.nib /Users/spector/Desktop/CoreLocationTest/MainWindow.xib0#
-
-CGenerateDSYMFile /Users/spector/Desktop/CoreLocationTest/build/Debug-iphonesimulator/CoreLocationTest.app.dSYM /Users/spector/Desktop/CoreLocationTest/build/Debug-iphonesimulator/CoreLocationTest.app/CoreLocationTest
-s281656434.821817
-e281656434.858014
-r1
-xGenerateDSYMFile
-x/Users/spector/Desktop/CoreLocationTest/build/Debug-iphonesimulator/CoreLocationTest.app.dSYM
-x/Users/spector/Desktop/CoreLocationTest/build/Debug-iphonesimulator/CoreLocationTest.app/CoreLocationTest
-lSLF07#2@136"GenerateDSYMFile build/Debug-iphonesimulator/CoreLocationTest.app.dSYM build/Debug-iphonesimulator/CoreLocationTest.app/CoreLocationTest281656434#281656434#0(0"0(0#0#105"/Users/spector/Desktop/CoreLocationTest/build/Debug-iphonesimulator/CoreLocationTest.app/CoreLocationTest4300934600#475"    cd /Users/spector/Desktop/CoreLocationTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/spector/Desktop/CoreLocationTest/build/Debug-iphonesimulator/CoreLocationTest.app/CoreLocationTest -o /Users/spector/Desktop/CoreLocationTest/build/Debug-iphonesimulator/CoreLocationTest.app.dSYM0#
-
-CLd /Users/spector/Desktop/CoreLocationTest/build/Debug-iphonesimulator/CoreLocationTest.app/CoreLocationTest normal i386
-s281656434.787636
-e281656434.821691
-r1
-xLd
-x/Users/spector/Desktop/CoreLocationTest/build/Debug-iphonesimulator/CoreLocationTest.app/CoreLocationTest
-xnormal
-xi386
-lSLF07#2@110"Link /Users/spector/Desktop/CoreLocationTest/build/Debug-iphonesimulator/CoreLocationTest.app/CoreLocationTest281656434#281656434#0(0"0(0#0#0"4300934600#1205"    cd /Users/spector/Desktop/CoreLocationTest    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -L/Users/spector/Desktop/CoreLocationTest/build/Debug-iphonesimulator -L/Users/spector/Desktop/CoreLocationTest/../../Work/ZeitgeistInfoSysLLC/MacintoshSoftwareDevelopment/iPhoneDevelopment/iPhoneSpecifcLibraries/libisimulate-3.x-noOpenGL -F/Users/spector/Desktop/CoreLocationTest/build/Debug-iphonesimulator -filelist /Users/spector/Desktop/CoreLocationTest/build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/Objects-normal/i386/CoreLocationTest.LinkFileList -mmacosx-version-min=10.5 -ObjC -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreLocation -framework MapKit -lisimulate -o /Users/spector/Desktop/CoreLocationTest/build/Debug-iphonesimulator/CoreLocationTest.app/CoreLocationTest0#
-
-CProcessInfoPlistFile /Users/spector/Desktop/CoreLocationTest/build/Debug-iphonesimulator/CoreLocationTest.app/Info.plist CoreLocationTest-Info.plist
-s281589429.140510
-e281589429.184192
-r1
-xProcessInfoPlistFile
-x/Users/spector/Desktop/CoreLocationTest/build/Debug-iphonesimulator/CoreLocationTest.app/Info.plist
-xCoreLocationTest-Info.plist
-lSLF07#2@35"Process CoreLocationTest-Info.plist281589429#281589429#0(0"0(0#0#67"/Users/spector/Desktop/CoreLocationTest/CoreLocationTest-Info.plist32370056118927472#571"    cd /Users/spector/Desktop/CoreLocationTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility CoreLocationTest-Info.plist -genpkginfo /Users/spector/Desktop/CoreLocationTest/build/Debug-iphonesimulator/CoreLocationTest.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/spector/Desktop/CoreLocationTest/build/Debug-iphonesimulator/CoreLocationTest.app/Info.plist0#
-
-CProcessPCH /var/folders/Ln/LnL2rSakHWmIaxW99THfd++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreLocationTest_Prefix-bbtxauhopbizlcdfrojgdjeznsjj/CoreLocationTest_Prefix.pch.gch CoreLocationTest_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s281589430.027426
-e281589431.285726
-r1
-xProcessPCH
-x/var/folders/Ln/LnL2rSakHWmIaxW99THfd++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreLocationTest_Prefix-bbtxauhopbizlcdfrojgdjeznsjj/CoreLocationTest_Prefix.pch.gch
-xCoreLocationTest_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@38"Precompile CoreLocationTest_Prefix.pch281589430#281589431#0(0"0(0#0#67"/Users/spector/Desktop/CoreLocationTest/CoreLocationTest_Prefix.pch4300934600#1994"    cd /Users/spector/Desktop/CoreLocationTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/spector/Desktop/CoreLocationTest/build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/CoreLocationTest-generated-files.hmap -I/Users/spector/Desktop/CoreLocationTest/build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/CoreLocationTest-own-target-headers.hmap -I/Users/spector/Desktop/CoreLocationTest/build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/CoreLocationTest-all-target-headers.hmap -iquote /Users/spector/Desktop/CoreLocationTest/build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/CoreLocationTest-project-headers.hmap -F/Users/spector/Desktop/CoreLocationTest/build/Debug-iphonesimulator -I/Users/spector/Desktop/CoreLocationTest/build/Debug-iphonesimulator/include -I/Users/spector/Desktop/CoreLocationTest/build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/DerivedSources/i386 -I/Users/spector/Desktop/CoreLocationTest/build/CoreLocationTest.build/Debug-iphonesimulator/CoreLocationTest.build/DerivedSources -c /Users/spector/Desktop/CoreLocationTest/CoreLocationTest_Prefix.pch -o /var/folders/Ln/LnL2rSakHWmIaxW99THfd++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreLocationTest_Prefix-bbtxauhopbizlcdfrojgdjeznsjj/CoreLocationTest_Prefix.pch.gch0#
-
-CTouch /Users/spector/Desktop/CoreLocationTest/build/Debug-iphonesimulator/CoreLocationTest.app
-s281656434.858141
-e281656434.862689
-r1
-xTouch
-x/Users/spector/Desktop/CoreLocationTest/build/Debug-iphonesimulator/CoreLocationTest.app
-lSLF07#2@94"Touch /Users/spector/Desktop/CoreLocationTest/build/Debug-iphonesimulator/CoreLocationTest.app281656434#281656434#0(0"0(0#0#0"4300934600#351"    cd /Users/spector/Desktop/CoreLocationTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/spector/Desktop/CoreLocationTest/build/Debug-iphonesimulator/CoreLocationTest.app0#
-
