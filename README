@@ -1,0 +1,19 @@
+                            SensorToy
+            
+SensorToy is a small app that shows data from all of the iPhone's major sensors and mapping capabilities
+
+The goal with the app is to have some quasi-real-time look into data coming from CoreLocation, the accelerometers,
+and the GPS/Mapping system.
+
+My original goal with this was to determine what happens on an iPodTouch in an app using CoreLocation for mapping
+when WiFi goes away (i.e., you go into Airplane mode, or if your WiFi connection becomes suddenly unavailable).
+
+It wasn't clear if you just get back 0.00,0.00 for the location or something else.  It turns out that you get the last known location.
+
+The app will also show you real-time data from the accelerometers showing X,Y,Z  data and also show the compass heading
+
+Anyway, its a cute little app that might be a good jumping off point for other sensor-based utility apps.
+
+
+Enjoy,
+    - David 
