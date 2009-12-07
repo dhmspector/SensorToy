@@ -434,7 +434,7 @@
 							<object class="IBMKMapView" id="213574485">
 								<reference key="NSNextResponder" ref="24680971"/>
 								<int key="NSvFlags">268</int>
-								<string key="NSFrame">{{6, 6}, {280, 162}}</string>
+								<string key="NSFrame">{{5, 6}, {290, 174}}</string>
 								<reference key="NSSuperview" ref="24680971"/>
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClipsSubviews">YES</bool>
@@ -443,13 +443,14 @@
 								<bool key="IBMKShowsUserLocation">YES</bool>
 							</object>
 						</object>
-						<string key="NSFrame">{{12, 8}, {291, 174}}</string>
+						<string key="NSFrame">{{12, 8}, {290, 174}}</string>
 						<reference key="NSSuperview" ref="883825266"/>
-						<object class="NSColor" key="IBUIBackgroundColor">
-							<int key="NSColorSpace">1</int>
-							<bytes key="NSRGB">MC43MDE5NjA4MDIxIDAuNzAxOTYwODAyMSAwLjcwMTk2MDgwMjEAA</bytes>
+						<reference key="IBUIBackgroundColor" ref="207837538"/>
+						<bool key="IBUIClipsSubviews">YES</bool>
+						<bool key="IBUIUserInteractionEnabled">NO</bool>
+						<object class="IBUIAccessibilityConfiguration" key="IBUIAccessibilityConfiguration">
+							<integer value="256" key="IBUIAccessibilityTraits"/>
 						</object>
-						<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
 					</object>
 				</object>
 				<string key="NSFrameSize">{320, 460}</string>
@@ -861,7 +862,7 @@
 					<string>MainViewController</string>
 					<string>UIResponder</string>
 					<string>MainView</string>
-					<string>{{1120, 376}, {320, 480}}</string>
+					<string>{{1077, 376}, {320, 480}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
