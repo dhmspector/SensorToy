@@ -66,8 +66,9 @@
   mapView.scrollEnabled = YES;
   mapView.showsUserLocation = YES;
   mapView.mapType = MKMapTypeHybrid;
-  // this causes the map to follow the user around
-  //[mapView.userLocation addObserver:self forKeyPath:@"location" options:0 context:NULL];
+  mapStatusText.text = @"Not following user";
+  
+  
   
   /*Region and Zoom */
   MKCoordinateRegion region;
@@ -249,17 +250,17 @@
   float heading = [newHeading trueHeading];
   NSString *ordinalPoint = nil;
   
-  // we're going to use show the 16 common cardinal and intercadinal compass points; the idea is we 
+  // we're going to use/show the 16 common cardinal and intercadinal compass points; the idea is we 
   // split the difference between intercardinal points.  For example between north and east is northeast.  
-  // Between North and NorthEast and NorthEast and East two two more divisions, NorthNorthEast and EastNorthEast.
-  // North -> East = 90 deg; North -> NorthEast and NorthEast -> East = 45deg, North -> NorthNorthEasy -- 22.5deg.  
+  // Between North and NorthEast and NorthEast and East are two more divisions, NorthNorthEast and EastNorthEast.
+  // North -> East = 90 deg; North -> NorthEast and NorthEast -> East = 45deg, North -> NorthNorthEast -- 22.5deg.  
   //
   // In order to have a smooth transition between the intercardinal points, you need to plit the distance yet again, 
   // making an 11.25 degree split.  In essesnce you are declaring north to be 11.5 deg to the left or right of true north; 
-  // ditto to the  other 3 cardinal points;  To be able to get all of the 16 common compass points to display you need to 
-  // do the same for each of N, NNE, NE, ENE, E ESE, SE SSE, S, SSW, SW, WSW W, WNW, NW NNW
+  // ditto to the other 3 cardinal points;  To be able to get all of the 16 common compass points to display you need to 
+  // do the same for each of N, NNE, NE, ENE, E ESE, SE SSE, S, SSW, SW, WSW W, WNW, NW NNW.
   
-  //NB North is a special case since the way we're normalizing it, it lies left of 359.99deg as well as < 11.25deg
+  //N.B.: North is a special case since the way we're normalizing it, it lies left of 359.99deg as well as < 11.25deg
   
   if (heading > 337.5 + kOne32ndCompassDivision && heading < 359.99 || heading > 0.00 && heading < kOne32ndCompassDivision)   
     ordinalPoint = @"(N)";
@@ -297,18 +298,16 @@
   else if (heading > (337.5 - kOne32ndCompassDivision) && heading < (337.5 + kOne32ndCompassDivision))
     ordinalPoint = @"(NNW)";
   
-
+  
   //  NSLog(@"Heading: %f", [newHeading magneticHeading]);
-
+  
   currentHeading.text = heading < 0 ?  @" - " : [NSString stringWithFormat:@"%3.1fº %@", heading, ordinalPoint];  
-
   
   // This will rotate the map as the compass heading changes. We need to put the map inside another view for
-  // to and deal with clipping regions I think for it to work sensibly, right now it spins the mapview on top 
-  // of the main view which is both wrong and really ugly. 
-  
-  //  [mapView setTransform:CGAffineTransformMakeRotation(-1 * newHeading.magneticHeading * 3.14159 / 180)];
-  
+  // and deal with clipping regions I think for it to work sensibly.  Right now it spins the mapview on top 
+  // of the main view which is both wrong and really ugly.
+  if (rotateMap)
+    [mapView setTransform:CGAffineTransformMakeRotation(-1 * newHeading.magneticHeading * 3.14159 / 180)];    
 }
 
 
@@ -366,6 +365,41 @@
     mapView.mapType = MKMapTypeStandard;
   else
     mapView.mapType = MKMapTypeHybrid;
+}
+
+
+- (IBAction)toggleMapRotation 
+{
+  if (rotateMap){
+    [mapView setTransform:CGAffineTransformMakeRotation(0)];    
+    rotateMap = NO;
+
+  }
+  else 
+    rotateMap = YES;
+  NSLog(@"Changed rotateMap to %@", rotateMap ? @"YES" : @"NO");  
+  
+}
+
+
+- (IBAction)toggleMapFollowsUser
+{
+  // this causes the map to follow the user around - This needs to be a toggle;
+  // if it's on, the map will literally follow the user undoing any moves/drags/zooms
+  // the user does.
+  
+  mapFollowsUser = !mapFollowsUser;
+  
+  if (mapFollowsUser) {    
+    [mapView.userLocation addObserver:self forKeyPath:@"location" options:0 context:NULL];
+    mapStatusText.text = @"Following user";
+  }
+  else {
+    [mapView.userLocation removeObserver:self forKeyPath:@"location"];
+    mapStatusText.text = @"Not following user";      
+  }
+  
+  NSLog(@"Changed mapFollowsUser to %@", mapFollowsUser ? @"YES" : @"NO");
 }
 
 @end

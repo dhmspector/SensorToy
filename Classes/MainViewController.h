@@ -24,6 +24,7 @@
   IBOutlet UISwitch   *coreLocationSwitch;
   IBOutlet UILabel    *lastUpdateTime;
   IBOutlet UILabel    *whichNetwork;
+  IBOutlet UILabel    *mapStatusText;
   IBOutlet UIButton   *showInfo;
   IBOutlet MKMapView  *mapView;
   
@@ -47,6 +48,8 @@
   NSDateFormatter     *dateFormatter;
   
   BOOL loc_service_active;
+  BOOL rotateMap;
+  BOOL mapFollowsUser;
 
 }
 
@@ -63,8 +66,10 @@
 */
 
 - (IBAction)toggleCoreLocation;
-- (IBAction) showUserLocation;
-- (IBAction) toggleMapType;
+- (IBAction)showUserLocation;
+- (IBAction)toggleMapType;
 - (IBAction)showInfo;
+- (IBAction)toggleMapRotation;
+- (IBAction)toggleMapFollowsUser;
 
 @end
